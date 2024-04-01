@@ -1,0 +1,131 @@
+﻿@using Core.Models;
+@using Core.Utility.Common;
+@using X.PagedList.Mvc.Core;
+@using Core.Resources;
+@using Core.Entity.Enums;
+@using Microsoft.AspNetCore.Http;
+
+
+@model X.PagedList.PagedList<Core.Entity.Users>
+
+@{
+    ViewBag.Title = "Users";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var pageName = "Users List";
+}
+@{
+  
+    var _role = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString())) : "");
+    TempData["UserRole"] = _role;
+
+}
+
+@section Scripts {
+    <script type="text/javascript">
+        var changeStatusUrl = '/AddVoiceToUser/ChangeStatus/';
+        var searchUrl = '/AddVoiceToUser/Search';
+        var listtype = '@ViewBag.RequestList';
+    </script>
+    <script src="~/Scripts/knockout-3.1.0.js"></script>
+    <script src="~/Scripts/knockout.mapping-latest.js"></script>
+    <script src="~/Scripts/run_prettify.js"></script>
+    <script src="~/Scripts/responsive-table.js" type="text/javascript"></script>
+    <script src="~/Scripts/Common/pagesort.js"></script>
+    <script src="~/custom-js/admin.js"></script>
+    <script>
+        var custDateTime = new Date().getTime();
+        document.write("<script src=\"/Scripts/Common/commonlist.js?v=" + custDateTime + "\"><\/script>");
+        
+        /*$(document).ready(function () {
+            $('#select_all_topics').on('click', function () {
+                console.log("Select All");
+                if (this.checked) {
+                    $('.checkbox_topics').each(function () {
+                        this.checked = true;
+                    });
+                } else {
+                    $('.checkbox_topics').each(function () {
+                        this.checked = false;
+                    });
+                }
+
+                $('.checkbox_topics').on('click', function () {
+                    console.log("Checkbox Topics");
+                    if ($('.checkbox_topics:checked').length == $('.checkbox_topics').length) {
+                        $('#select_all_topics').prop('checked', true);
+                        console.log("Select IF");
+                    } else {
+                        $('#select_all_topics').prop('checked', false);
+                        console.log("Select Else");
+                    }
+                });
+            });
+        });*/
+    </script>
+}
+
+<div class="content-wrapper box" id="divLoader">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <input type="hidden" id="page" name="page" value="0" />
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">@ViewBag.Title</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+            <div class="mtop15">
+                <div class="card">
+
+                    <div class="">
+                        <div class="listview-top-lp">
+                            <label class="mobhide">&nbsp;</label><br class="mobhide" />
+                            <input id="userID" type="hidden"  name="" value=""/>
+                            <input id="Search" type="text" maxlength="100" name="Search" class="form-control search-records input-search-listview" onkeydown="CallEnter(event, 'btnSearch')" placeholder="@Resource.lbl_search" />
+                            <input id="btnSearch" type="submit" value="" name="btnSearch" class="btn btn-primary btn-search-listview" onclick="go()" />
+                            <div class="clear"></div>
+                        </div>
+                        <div class="listview-top-rp">
+                            <ul class="btn-holder">
+                                <li class="lib-lang-holLP">
+                                    <span class="lib-reco-hol" id="dvRecPerPage">
+                                        <label>@Resource.lbl_recordsPerPage:</label><br />
+                                        @{
+                                            CommonData objCD = new CommonData(HttpContextAccessor);
+                                            string pageSize = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.GridPageSize.ToString()) != null ? HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.GridPageSize.ToString()) : "10");
+                                            SelectList pageSizes = new SelectList(objCD.GetPageSizes(), "Value", "Text", pageSize);
+                                        }
+                                        @Html.DropDownList("ddlPageSize", (IEnumerable<SelectListItem>)pageSizes, new { onchange = "changePageSize()", @class = "form-control dropdownDownArrow" })
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div>
+                        @if (TempData["UserRole"].ToString() == "7" || TempData["UserRole"].ToString() == "3")
+                        {
+                            <div class="form-group">
+                                <div class="alert alert-info alert-dismissable">
+                                    <i class="fa fa-info"></i>                                
+                                    <span class="iconHolderSpan"> <i class="fa fa-unlock"></i> Enable </span>
+                                    <span class="iconHolderSpan"> <i class="fa fa-lock"></i> Disable </span>
+                                    <span class="iconHolderSpan"> <i class="fa fa-trash"></i> Delete </span>
+                                </div>
+                            </div>
+                        }
+                        <div id="dvCommon">
+                            @Html.Partial("_ListPartial", Model)
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </div>
+</div>
+
+
+

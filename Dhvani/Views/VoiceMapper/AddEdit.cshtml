@@ -1,0 +1,435 @@
+﻿@model Core.Entity.VoiceMasterSetting
+@using Core.Entity.Enums
+@using Microsoft.AspNetCore.Http
+@using Newtonsoft.Json;
+@{
+    ViewData["Title"] = "Add Voice";
+}
+
+<link href="~/plugins/fselect/fSelect.css" rel="stylesheet" />
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark customTitleAddEdit">@ViewBag.Title</h1>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div id="divLoader" class="container-fluid box">
+
+            <!-- Main row -->
+            <div class="row">
+                <!-- Left col -->
+                <section class="col-lg-12 connectedSortable">
+                    <div class="card">
+                        <div class="">
+                            <form action="" id="frmAddUser" method="post" enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="text-info"><small>All the fields marked <span class="starField">*</span> are compulsory</small></p>
+                                        <input type="hidden" id="VoiceMasterID" name="VoiceMasterID" value="@Model.VoiceMasterID" />
+                                        <input type="hidden" id="UUID" name="UUID" value="@Model.UUID" />
+                                        <input type="hidden" id="ID" name="ID" value="@Model.ID" />
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-md-12">                                        
+                                        <div class="alert alert-success" style="background: #202020; padding: 5px 10px; border-color: #464646;">
+                                            en-IN-NeerjaNueral
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Name</label> <span class="starField">*</span><br />
+                                            <input class="form-control" id="VMName" name="VMName" placeholder="" value="@Model.VMName" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Gender</label> <span class="starField">*</span><br />
+                                            <select class="form-control" id="genderSelect">
+                              @*                   <option value="0">Select</option>
+                                                <option value="female">Female</option>
+                                                <option value="male">Male</option>
+                                                <option value="other">Other</option> *@
+                                                @if (Model.VMGender == "Male")
+                                                {
+                                                    <option value="Male" selected>Male</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="Male">Male</option>
+                                                }
+                                                @if (Model.VMGender == "Female")
+                                                {
+                                                    <option value="Female" selected>Female</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="Female">Female</option>
+                                                }
+                                                @if (Model.VMGender == "Other")
+                                                {
+                                                    <option value="Other" selected>Other</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="Other">Other</option>
+                                                }
+                                            </select>
+                                        </div>
+                                        <input type="hidden" id="selectedGenderValue" name="selectedGenderValue" />
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Age</label> <span class="starField">*</span><br />
+                                            <select class="form-control" id="ageSelect">
+                                                @* <option value="0">Select</option> *@
+                                                @if (Model.AgeBracket == "Adult")
+                                                {
+                                                    <option value="Adult" selected>Adult</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="Adult">Adult</option>
+                                                }
+                                                @if (Model.AgeBracket == "Child")
+                                                {
+                                                    <option value="Child" selected>Child</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="Child">Child</option>
+                                                }
+                                                
+                                                
+                                            </select>
+                                        </div>
+                                        <input type="hidden" id="selectedAge" name="selectedAge" />
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Display Name</label> <span class="starField">*</span><br />
+                                            <input class="form-control" id="DisplayName" name="DisplayName" placeholder="" value="@Model.VMDisplayName" />
+                                        </div>
+                                    </div>
+                                   @*  <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Locale</label> <span class="starField">*</span><br />
+                                            <input class="form-control" id="Locale" name="Locale" placeholder="" value="@Model.VMLocale" />
+                                        </div>
+                                    </div> *@
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Locale Name</label> <span class="starField">*</span><br />
+                                            <input class="form-control" id="LocalName" name="LocalName" placeholder="" value="@Model.VMLocaleName" />
+                                        </div>
+                                    </div>
+                                    @* <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Short Name</label> <span class="starField">*</span><br />
+                                            <input class="form-control" id="ShortName" name="ShortName" placeholder="" value="@Model.VMShortName" />
+                                        </div>
+                                    </div> *@
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <div style="display: flex; flex-direction: row; align-items: center; gap: 10px;">
+                                                <label>Sample URL</label>
+                                                <span class="starField">*</span>
+                                                <div>
+                                                    <span class="audio-player-button iconAudioPlayer" onclick="playPauseAudio('mp3_@Model.ID')"></span>
+                                                    <div class="audio-player">
+                                                        <audio id="mp3_@Model.ID">
+                                                            <source src='@Model.SampleUrl' />
+                                                        </audio>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input class="form-control" id="SampleURL" name="SampleURL" placeholder="" value="@Model.SampleUrl" style="position: relative; top: -6px;" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Voice Provider</label> <span class="starField">*</span><br />
+                                            <input class="form-control" id="VoiceProvider" name="VoiceProvider" placeholder="" value="@Model.VoiceProvider" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Character Limit</label> <span class="starField">*</span><br />
+                                            <input class="form-control numberonly" id="CharacterLimit" name="CharacterLimit" placeholder="" value="@Model.CharLimit" maxlength="4" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+
+                                            <label>Language</label> <span class="starField">*</span><br />
+                                            <input class="form-control" id="Language" name="Language" placeholder="Language" value="@Model.VMLanguage" />
+                                           @*  <select class="form-control">
+
+                                                <option value="0">Select</option>
+                                            </select> *@
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Sample Rate Hertz</label> <span class="starField">*</span><br />
+                                            <input class="form-control numberonly" id="SampleRateHertz" name="SampleRateHertz" placeholder="" value="@Model.VMSampleRateHertz" maxlength="5" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Voice Type</label> <span class="starField">*</span><br />
+                                            <input class="form-control" id="VoiceType" name="VoiceType" placeholder="" value="@Model.VMVoiceType" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Status</label> <span class="starField">*</span><br />
+                                            <input class="form-control" id="Status" name="Status" placeholder="" value="@Model.VMStatus" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Words Per Minute</label> <span class="starField">*</span><br />
+                                            <input class="form-control numberonly" id="WordsPerMinute" name="WordsPerMinute" placeholder="" value="@Model.VMWordsPerMinute" maxlength="3" />
+                                        </div>
+                                    </div>
+                                    @* This is main code of common seperated by value in style name  *@
+                                    @* <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Speak Style</label> <br />
+                                            <input class="form-control" id="SpeakStyle" name="SpeakStyle" placeholder="" value="@string.Join(",",Model._StyleListValues.Select(s => s.StyleName))" />
+                                        </div>
+                                    </div> *@
+
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Speak Style</label> <br />
+                                            <div id="tagContainer">
+                                                @if(Model._StyleListValues != null && Model._StyleListValues.Count > 0)
+                                                {
+                                                    @foreach (var style in Model._StyleListValues)
+                                                    {
+                                                        <span class="badge badge-primary">@style.StyleName</span>
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-primary">No Style</span>
+                                                }
+                                               
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="clearfix"></div>
+                                <div class="row">
+                                                                       
+                                    <div class="col-md-6">
+                                        <div class="form-group fSelectSelectTags">
+                                            <label>Tag</label> @* <span class="starField">*</span> *@<br />
+                                            @* <select class="form-control searchTags" multiple="multiple">
+                                                <option value="0">Select</option>
+                                                <option value="tag_1">Tag 1</option>
+                                                <option value="tag_2">Tag 2</option>
+                                            </select> *@
+
+                                            <select class="searchTags form-control" id="searchTags" name="searchTags" multiple="multiple">
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group fSelectSelectBestFor">
+                                            <label>Best For</label> @* <span class="starField">*</span> *@<br />
+                                            <select class="form-control searchBestFor" id="searchBestFor" name="searchBestFor" multiple="multiple">
+                                               @*  <option value="0">Select</option>
+                                                <option value="bestFor_1">Best for 1</option>
+                                                <option value="bestFor_2">Best for 2</option> *@
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                    
+                                <div class="clearfix"></div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Photo</label> @* <span class="starField">*</span> *@ <span class="labelInfoText">(image resolution 600 x 600 px)</span><br />
+                                            @* <input type="file" name="VoiceImage" id="VoiceImage" class="form-control" /> *@
+                                            <div class="img_schoolLogoStampSign">
+                                                <div style="padding-left: 10px;">
+                                                    <input type="hidden" name="Picture_base64" id="Picture_base64" />                                                    
+                                                    <input type="file" onchange="setUserImage(); imgSizeAndResolution('VoiceImage');" name="VoiceImage" id="VoiceImage" class="" value="">
+                                                </div>
+                                                @if (String.IsNullOrEmpty(Model.VoiceImage))
+                                                {
+                                                    <div style="padding-left: 10px;">
+                                                        <img id="user_image" src="~/images/no-logo.jpg" alt="" class="imgLogo" />
+                                                    </div>
+                                                }
+                                                else
+                                                {
+                                                    <div style="padding-left: 10px;">
+                                                        <img id="user_image" src="@Model.VoiceImage" alt="" class="imgLogo" />
+                                                    </div>
+                                                }
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Description</label> <span class="starField">*</span> <span class="labelInfoText">(allow 8000 characters including space)</span><br />
+                                            <textarea name="Discription" id="Discription" class="form-control" style="resize: none; height: 150px;">@Model.Description</textarea>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="clearfix"></div>
+
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <button class="btn btn-default" type="button" onclick="history.back()">Back</button>
+                                            <input type="button" onclick="SubmitForm('frmSaveVoice')" class="btn btn-primary" value="Save" />
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
+                <!-- /.Left col -->
+                <div class="clearfix"></div>
+            </div>
+            <!-- /.row (main row) -->
+
+        </div>
+        <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+@section Scripts {
+    
+    <script src="~/js/jquery-2.1.3.js"></script>
+    <script src="~/js/jquery.validate.js"></script>
+    <script src="~/Scripts/Common/validation.js"></script>        
+   
+    <script src="~/custom-js/common-validation.js"></script>
+    <script src="~/custom-js/save-validation.js"></script>
+    <script src="~/custom-js/voice.js"></script>
+    <script src="~/plugins/fselect/fselect.js"></script>
+    <script>
+        var IsEdit = false;
+        // set the drop down value if the value is already selected
+        var genderDropDownSelectedValue = '@Model.VMGender';
+        var AgeBracketDropDownSelectedValue = '@Model.AgeBracket';
+
+        $(document).ready(function () {        
+
+            if (parseInt('@Model.ID', 10) > 0) {
+                IsEdit = true;
+            }
+            if (IsEdit == true) {
+                $(".customTitleAddEdit").text('Edit Voice');
+            }
+            else {
+                $(".customTitleAddEdit").text('Add Voice');
+            }
+
+
+           
+            
+            // Set the selected value in the dropdown
+            $('#genderSelect').val(genderDropDownSelectedValue);
+            $('#ageSelect').val(AgeBracketDropDownSelectedValue);
+
+            // Drop down for tags and best for 
+            getTagMasterList(@Model.VoiceMasterID);
+            getBestForMasterList(@Model.VoiceMasterID);
+
+        });
+
+
+        // Gender drop down value selected
+        $('#genderSelect').change(function () {
+            // Get the selected value
+            var genderSelectedValue = $(this).val();
+
+            // Update the hidden input field with the selected value
+            $('#selectedGenderValue').val(genderSelectedValue);
+        });
+
+        // Age drop down value selected
+        $('#ageSelect').change(function () {
+
+            //Get the selected value
+            var ageSelectedValue = $(this).val();
+
+            // Update the hidden input field with the selected value
+            $('#selectedAge').val(ageSelectedValue);
+
+        });
+
+        var custDateTime = new Date().getTime();    
+        document.write("<script src=\"/js/common.js?v=" + custDateTime + "\"><\/script>");
+        
+
+        $(function () {
+            window.fs_test = $('.searchTags').fSelect();
+            window.fs_test = $('.searchBestFor').fSelect();
+        });
+
+        function setUserImage() {
+            var file_data = $('input[name="VoiceImage"]')[0].files;
+            $("#user_image").attr('src', window.URL.createObjectURL(file_data[0]));
+        }
+
+        var playstatusflag = false;
+        function playPauseAudio(id) {
+
+            if (playstatusflag == false) {
+                console.log("Play Audio");
+                document.getElementById(id).play();
+                playstatusflag = true;
+                $("#" + id).parent().parent().find("span").removeClass("audio-player-button");
+                $("#" + id).parent().parent().find("span").addClass("audio-pause-button");
+            }
+            else {
+                console.log("Pause Audio");
+                document.getElementById(id).pause();
+                playstatusflag = false;
+                $("#" + id).parent().parent().find("span").removeClass("audio-pause-button");
+                $("#" + id).parent().parent().find("span").addClass("audio-player-button");
+            }
+            var aud = document.getElementById(id);
+            aud.onended = function () {
+                playstatusflag = false;
+                $("#" + id).parent().parent().find("span").removeClass("audio-pause-button");
+                $("#" + id).parent().parent().find("span").addClass("audio-player-button");
+            };
+        }
+
+    </script>
+
+    <script id="apiKeyTemplate" type="text/template">
+        API Key Token: <span>{{ apiKey }}</span>
+    </script>
+}

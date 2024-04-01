@@ -1,0 +1,50 @@
+﻿@model X.PagedList.PagedList<Core.Entity.VoiceMasterSetting>
+@using Core.Entity.Enums;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+
+@{
+    Layout = null;
+}
+
+@if (Model != null && Model.Count() > 0)
+{    
+    <table id="selectVoiceList" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+        <thead>
+            <tr role="row">
+                <th class="sorting" tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" aria-label="" id="col_srno">Sr. No</th>
+                <th class="sorting" tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" aria-label="" id="col_name">Image</th>
+                <th class="sorting" tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" aria-label="" id="col_name">User Name</th>
+                <th class="sorting" tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" aria-label="" id="col_gender">Gender</th>
+                <th class="sorting" tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" aria-label="" id="col_age">Age</th>
+                <th class="sorting" tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" aria-label="" id="col_language">Language</th>
+                <th class="sorting" tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" aria-label="" id="col_accent">Accent</th>                
+                <th class="sorting" tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" aria-label="" id="col_industry">Industry</th>
+                <th class="sorting" tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" aria-label="" id="col_tag">Tag</th>
+                <th class="sorting" tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" aria-label="" id="col_description">Description</th>
+                <th class="sorting" tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" aria-label="" id="col_image">Sound</th>                
+                <th tabindex="0" aria-controls="selectVoiceList" rowspan="1" colspan="1" style="width: 100px;">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr id="row_@item.ID">
+                    <td>@item.RowNumber</td>
+                    <td class="wordbreak">Text</td>
+                    <td class="wordbreak">Text</td>
+                    <td class="wordbreak">Text</td>
+                    <td class="wordbreak">Text</td>
+                    <td class="wordbreak">Text</td>
+                    <td class="wordbreak">Text</td>
+                    <td class="wordbreak">Text</td>
+                    <td class="wordbreak">Text</td>
+                    <td class="wordbreak">Text</td>
+                    <td class="wordbreak">Text</td>
+                    <td class="wordbreak">Text</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,112 @@
+﻿@model X.PagedList.PagedList<Core.Entity.tblTransaction>
+@using Core.Entity.Enums;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+
+@* @{
+    Layout = null;
+
+    var _id = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString())) : "");
+    TempData["userid"] = _id;
+    var _role = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString())) : "");
+    TempData["UserRole"] = _role;
+
+} *@
+
+@if (Model != null && Model.Count() > 0)
+{
+    string strBorder = "";
+    if (ViewBag.IsExport != null && (bool)ViewBag.IsExport)
+    {
+        strBorder = "border='1'";
+    }
+    <table @strBorder id="transcationList" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+        <thead>
+            <tr role="row">
+                <th class="sorting" tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" aria-label="" id="col_srno">Sr. No</th>
+                <th class="sorting" tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" aria-label="" id="col_loginname">Login Name</th>
+                <th class="sorting" tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" aria-label="" id="col_voicename">Voice Name</th>
+                <th class="sorting" tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" aria-label="" id="col_language">Language</th>
+                <th class="sorting" tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" aria-label="" id="col_accent">Accent</th>
+                <th class="sorting" tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" aria-label="" id="col_provider">Provider</th>
+                <th class="sorting" tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" aria-label="" id="col_text">Text</th>
+                <th class="sorting" tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" aria-label="" id="col_states">Transaction Status</th>
+                <th class="sorting" tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" aria-label="" id="col_mp3">MP3</th>
+                <th class="sorting" tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" aria-label="" id="col_createddate">Created Date</th>
+                <th class="sorting" tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" aria-label="" id="col_updateddate">Updated Date</th>
+               @*  <th tabindex="0" aria-controls="transcationList" rowspan="1" colspan="1" style="width: 100px;">Action</th> *@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr id="row_@item.ID">
+                    <td>@item.RowNumber</td>           
+                    <td class="wordbreak">@item.LoginName</td>
+                    <td class="wordbreak">@item.DisplayName</td>  @* voice Name *@
+                    <td class="wordbreak">@item.LocaleName</td>  @* Language *@
+                    <td class="wordbreak">@item.Accent</td>  @* Accent *@
+                    <td class="wordbreak">@item.ProviderName </td>  @* Provider *@
+                    <td class="wordbreak">@item.VoiceText</td>  @* Text *@                
+                    
+                    @{
+                        @if (@item.TransactionStatus == "1")
+                        {
+                            <td class="wordbreak"> Completed </td>
+                        }
+                        else if (@item.TransactionStatus == "2")
+                        {
+                            <td class="wordbreak"> In Process</td>
+                        }
+                        else
+                        {
+                            <td class="wordbreak"> Not started</td>
+                        }        
+                    }
+
+                    <td class="wordbreak">
+                        @* <a href="@item.MP3URL" target="_blank"><img src="~/images/icon_sound.svg" alt="" style="width: 22px; height: 22px;" /></a> *@
+                        @if (string.IsNullOrEmpty(@item.MP3URL) || item.TransactionType == "2" || item.TransactionType == "0")
+                        {
+                            <span class="" style="pointer-events: none; opacity: 0.5;"></span>
+                        }
+                        else
+                        {
+                            <span class="audio-player-button iconAudioPlayer" onclick="playPauseAudio('mp3_@item.ID')"></span>
+                            <div class="audio-player">
+                                            <audio id="mp3_@item.ID" class="mp3_audio">
+                                    <source src='@item.MP3URL' />
+                                </audio>
+                            </div>
+                        }
+
+                    </td>  @* mp3 link with https*@
+
+                    @{
+                        try
+                        {
+                            var istSdate = TimeZoneInfo.ConvertTimeFromUtc(Convert.ToDateTime(item.CreatedDate), TimeZoneInfo.FindSystemTimeZoneById("India Standard Time"));
+                            <td class="wordbreak">@istSdate.ToString("dd/MM/yyyy h:mm:ss tt")</td>
+                        }
+                        catch
+                        {
+                            <td></td>
+                        }
+
+                        try
+                        {
+                            var istSdate = TimeZoneInfo.ConvertTimeFromUtc(Convert.ToDateTime(item.UpdatedDate), TimeZoneInfo.FindSystemTimeZoneById("India Standard Time"));
+                            <td class="wordbreak">@istSdate.ToString("dd/MM/yyyy h:mm:ss tt")</td>
+                        }
+                        catch
+                        {
+                            <td></td>
+                        }
+                    }
+        
+                </tr>
+            }
+        </tbody>
+    </table>
+}

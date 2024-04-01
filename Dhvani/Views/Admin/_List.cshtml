@@ -1,0 +1,111 @@
+﻿@model X.PagedList.PagedList<Core.Entity.Users>
+@using Core.Entity.Enums;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+
+@{
+    Layout = null;
+
+    var _id = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString())) : "");
+    TempData["userid"] = _id;
+    var _role = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString())) : "");
+    TempData["UserRole"] = _role;
+
+}
+
+@if (Model != null && Model.Count() > 0)
+{
+    string strBorder = "";
+    if (ViewBag.IsExport != null && (bool)ViewBag.IsExport)
+    {
+        strBorder = "border='1'";
+    }
+    <table @strBorder id="schoolAdmin" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+        <thead>
+            <tr role="row">
+                <th class="sorting" tabindex="0" aria-controls="schoolAdmin" rowspan="1" colspan="1" aria-label="" id="col_srno">Sr. No</th>
+                <th class="sorting" tabindex="0" aria-controls="schoolAdmin" rowspan="1" colspan="1" aria-label="" id="col_username">Email</th>
+
+                @if (_role == "1" || _role == "2")
+                {
+                    <th class="" tabindex="0" aria-controls="schoolHQAdmin" rowspan="1" colspan="1" aria-label="" id="col_impersonation" style="pointer-events: none;">Impersonation</th>
+                }
+
+                <th class="sorting" tabindex="0" aria-controls="schoolAdmin" rowspan="1" colspan="1" aria-label="" id="col_firstname">First Name</th>
+                <th class="sorting" tabindex="0" aria-controls="schoolAdmin" rowspan="1" colspan="1" aria-label="" id="col_lastname">Last Name</th>             
+                <th class="sorting" tabindex="0" aria-controls="schoolHQAdmin" rowspan="1" colspan="1" aria-label="" id="col_createddate">Created Date</th>
+                <th tabindex="0" aria-controls="schoolAdmin" rowspan="1" colspan="1" style="width: 100px;" >Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr id="row_@item.ID">
+                    <td>@item.RowNumber</td>
+                    <td class="wordbreak">@item.UserName</td>
+                    @if (_role == "1")
+                    {
+                        if (item.StatusId == 1 && !string.IsNullOrEmpty(item.Password))
+                        {
+                            <td>
+                                <span id="btnImpersonation_0" name="btnImpersonation_0" _un="@item.UserName" _oun="@ViewBag.UserName" _pass="" class="JsImpersonation cust-span-link" style="color: #00ceff; cursor: pointer;">Login</span>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                <span id="" name="" _un="" _oun="" _pass="" class=" disabled" style="color: gray; cursor: none;">Login</span>
+                            </td>
+                        }
+                    }
+                    <td class="wordbreak">@item.FirstName</td>
+                    <td class="wordbreak">@item.LastName</td>
+
+                    @{
+                        try
+                        {
+                            var istSdate = TimeZoneInfo.ConvertTimeFromUtc(Convert.ToDateTime(item.CreatedDate), TimeZoneInfo.FindSystemTimeZoneById("India Standard Time"));
+                            <td class="wordbreak">@istSdate.ToString("dd/MM/yyyy h:mm:ss tt")</td>
+                        }
+                        catch
+                        {
+                            <td></td>
+                        }
+                    }
+
+                    <td class="wordbreak">
+                        @{
+                            var clsColor = "";
+                            var clslockunlock = "";
+                            var Onclick = "";
+                            var fieldDisabled = "";
+                            var strTitle = "";
+                            if (item.StatusId == 1)
+                            {
+                                //clsColor = "bg-green";
+                                clsColor = "btnCust_unlock";
+                                clslockunlock = "fa fa-unlock";
+                                Onclick = "changeStatus(this,'" + @item.ID + "','0')";
+                                strTitle = "Enable";
+                            }
+                            else
+                            {
+                                //clsColor = "bg-red";
+                                clsColor = "btnCust_lock";
+                                clslockunlock = "fa fa-lock";
+                                Onclick = "changeStatus(this,'" + @item.ID + "','1')";
+                                strTitle = "Disable";
+                            }
+                            <a id="Active" data-toggle="tooltip" title="@strTitle" onclick="@Onclick" class="btn-fa-addCustom @clsColor"><i class="@clslockunlock"></i></a>
+
+                            <a data-toggle="tooltip" title="Edit" href="@Url.Action("AddEdit", "Admin", new { ID = item.UUID })" class="btn-fa-addCustom btnCust_edit @fieldDisabled"><i class="fa fa-edit"></i></a>
+                            
+                        }
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

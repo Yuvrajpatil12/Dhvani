@@ -1,0 +1,87 @@
+﻿@{
+	//ViewBag.Title = "GyanAkaadamee | Home";
+	Layout = "~/Views/Shared/_LayoutLanding.cshtml";
+}
+
+@*<script src="~/js/jquery-1.11.3.min.js"></script>*@
+<script src="~/js/site.js?v1=1" type="text/javascript"></script>
+<script type="text/javascript">    
+	//getMobileOperatingSystem();
+</script>
+@*@section scripts {
+<script type="text/javascript">
+$(document).ready(function() {
+	getMobileOperatingSystem();
+});
+//alert(os);
+function getMobileOperatingSystem() {
+	var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+	// Windows Phone must come first because its UA also contains "Android"
+	if (/windows phone/i.test(userAgent)) {
+		//return "Windows Phone";
+		window.location.href = "https://tdacademy.logthis.in";
+	}
+
+	else if (/android/i.test(userAgent)) {
+		//return "Android";
+		setTimeout(function () {
+			window.location.href = "https://play.google.com/store/apps/details?id=com.creativegalileo.tcacademyapp";
+		}, 30000);
+	}
+
+	// iOS detection from: http://stackoverflow.com/a/9039885/177710
+	else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+		//return "iOS";
+
+		setTimeout(function () {
+			   window.location.href = "https://apps.apple.com/in/app/td-academy/id6449385663";
+			}, 30000);
+		//window.location.href = "https://apps.apple.com/in/app/td-academy/id6449385663";
+	}
+	else
+	{
+		//return "unknown";
+		window.location.href = "https://tdlearning.logthis.in/Users/Home";
+		
+	}
+}
+</script>
+}*@
+
+<!-- Body Section -->
+<!-- Banner Section -->
+<section class="lpage-banner-container">
+	<div class="lpage-cust-container-inner">
+		<div class="lpage-cust-container-inner-p20">
+			<div class="lpage-banner-lp">
+				<div class="lpage-banner-img-lp">
+					<img src="~/images/home-page-banner-mob-1.png" alt="image" class="img">
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="lpage-banner-rp">
+				<div class="lpage-banner-content">
+					<div class="lpage-banner-title">						
+						<p>Interactive Early Childhood Learning: Toondemy offers dynamic, interactive activities across various learning domains for young learners.</p>
+						<p class="mtop10">Personalized Learning Journeys: The app tailors content to each child's abilities, ensuring effective, age-appropriate learning.</p>
+						<p class="mtop10">Comprehensive Curriculum: Covering CBSE and ICSE boards, Toondemy fosters critical thinking, vocabulary, creativity, and moral values.</p>
+						<p class="mtop10">Expert Pedagogy: Designed by pedagogy experts from Southeast Asia and India, it provides a well-rounded learning experience.</p>
+						<p class="mtop10">Interactive Learning Techniques: Toondemy utilises 1000+ interactive activities for cognitive development, analytical skills, and general awareness.</p>
+						<p class="mtop10">E-books for Reading Skills: The platform offers a variety of e-books to enhance reading, vocabulary, and communication skills.</p>
+						<p class="mtop10">Content Personalization: Toondemy adapts content to each child's abilities and pace, ensuring personalised learning.</p>
+						<p class="mtop10">Educational Content Management System: It includes a system for schools to manage licences, assign content, and track student performance.</p>
+						<p class="mtop10">Founded by Experts: Founded by an experienced early childhood learning professional, Toondemy offers a holistic approach to child development.</p>
+					</div>					
+					<div class="mtop20">
+						<a href="https://play.google.com/store/apps/details?gl=US&hl=en_IN&id=com.ct.littlesingham.toondemy" class="lpage-banner-link" target="_blank" rel="noopener"><img src="~/images/icon-app-googlestore.png" alt="image" class="app-icons"></a><span class="lpage-banner-appsep1"></span><a href="https://apps.apple.com/app/id1639485659" class="lpage-banner-link" target="_blank" rel="noopener"><img src="~/images/icon-app-appstore.png" alt="image" class="app-icons"></a>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+</section>
+<!-- Banner Section END-->
+<div class="clear"></div>

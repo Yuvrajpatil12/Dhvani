@@ -1,0 +1,72 @@
+﻿@model X.PagedList.PagedList<Core.Entity.Users>
+@using Core.Entity.Enums;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+
+@{
+    Layout = null;
+
+    var _id = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString())) : "");
+    TempData["userid"] = _id;
+    var _role = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString())) : "");
+    TempData["UserRole"] = _role;
+
+}
+@section Scripts {
+
+  <script src="~/custom-js/admin.js"></script>
+    <script src="~/custom-js/AddVoiceToUser.js"></script>
+  
+}
+
+
+@if (Model != null && Model.Count() > 0)
+{
+    string strBorder = "";
+    if (ViewBag.IsExport != null && (bool)ViewBag.IsExport)
+    {
+        strBorder = "border='1'";
+    }
+    <table @strBorder id="schoolAdmin" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+        <thead>
+            <tr role="row">
+                <th class="sorting" tabindex="0" aria-controls="schoolAdmin" rowspan="1" colspan="1" aria-label="" id="col_srno">Sr. No</th>
+                <th class="sorting" tabindex="0" aria-controls="schoolAdmin" rowspan="1" colspan="1" aria-label="" id="col_username">Email</th>
+                <th class="sorting" tabindex="0" aria-controls="schoolAdmin" rowspan="1" colspan="1" aria-label="" id="col_firstname">First Name</th>
+                <th class="sorting" tabindex="0" aria-controls="schoolAdmin" rowspan="1" colspan="1" aria-label="" id="col_lastname">Last Name</th>             
+                <th class="sorting" tabindex="0" aria-controls="schoolHQAdmin" rowspan="1" colspan="1" aria-label="" id="col_createddate">Created Date</th>
+                <th tabindex="0" aria-controls="schoolAdmin" rowspan="1" colspan="1" style="width: 180px;">Action</th>
+              
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr id="row_@item.ID">
+                      <input type="hidden" id="ID" value="@item.ID" />
+                    <td>@item.RowNumber</td>
+                    <td class="wordbreak">@item.UserName</td>
+                    <td class="wordbreak">@item.FirstName</td>
+                    <td class="wordbreak">@item.LastName</td>
+
+                    @{
+                        try
+                        {
+                            var istSdate = TimeZoneInfo.ConvertTimeFromUtc(Convert.ToDateTime(item.CreatedDate), TimeZoneInfo.FindSystemTimeZoneById("India Standard Time"));
+                                <td class="wordbreak">@istSdate.ToString("dd/MM/yyyy h:mm:ss tt")</td>
+                        }
+                        catch
+                        {
+                                <td></td>
+                        }
+                    }
+                    <td class="wordbreak">
+                        <a data-toggle="tooltip" title="Add Voice to User" onclick="SetUserId(@item.ID)" href="@Url.Action("VoiceIndex", "AddVoiceToUser", new { userID = @item.ID })" class="btn btn-sm btn-primary">Add Voice to User</a>
+                    </td>
+                    
+                </tr>
+            }
+        </tbody>
+    </table>
+}

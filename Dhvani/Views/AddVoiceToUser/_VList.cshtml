@@ -1,0 +1,92 @@
+﻿@model X.PagedList.PagedList<Core.Entity.VoiceMasterSetting>
+@using Core.Entity.Enums;
+@using Core.Utility.Common
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+
+@{
+    Layout = null;
+}
+
+@section Scripts {
+
+    <script src="~/custom-js/admin.js"></script>
+    <script src="~/custom-js/AddVoiceToUser.js"></script>
+}
+@if (Model != null && Model.Count() > 0)
+{
+    <table id="voiceList" class="table tbl1 table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+        <thead>
+            <tr role="row">
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_srno">Sr. No</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_displayname">Display Name</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_gender">Gender</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_age">Age</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_language">Language</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_accent">Accent</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_voiceprovider">Voice Provider</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_sampleurl">Sample URL</th>
+                <th tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" style="width: 100px;">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr id="row_@item.ID">
+                    <input type="hidden" id="VoiceMasterUserMapID_@item.ID" value="@item.VoiceMasterUserMapID" />
+                    <input type="hidden" id="VoiceMasterID_@item.ID" value="@item.VoiceMasterID" />
+                    <td>@item.RowNumber</td>
+                    <td class="wordbreak"><div style="width: 80px;">@item.VMDisplayName</div></td> @* Display Name *@
+                    <td class="wordbreak"><div style="width: 60px;">@item.VMGender</div></td> @* Gender *@
+                    <td class="wordbreak">@item.AgeBracket</td> @* Age *@
+                    <td class="wordbreak"><div style="width: 60px;">@item.VMLanguage</div></td> @* Language *@
+                     <td class="wordbreak">@item.VMAccent</td> 
+                    <td class="wordbreak"><div style="width: 80px;">@item.VoiceProvider</div></td> @* Voice Provider *@
+                    <td class="wordbreak">
+                        @if (String.IsNullOrEmpty(item.SampleUrl))
+                        {
+                            <span class="audio-player-button iconAudioPlayer" style="pointer-events: none; opacity: 0.5;"></span>
+                        }
+                        else
+                        {
+                            <span class="audio-player-button iconAudioPlayer" onclick="playPauseAudio('mp3_@item.ID')"></span>
+                            <input type="hidden" id="hdnmp3_@item.ID" value="@item.SampleUrl" class="hdnMp3" />
+                            <div class="audio-player">
+                                <audio id="mp3_@item.ID" class="mp3_audio">
+                                    <source src='' type="audio/mpeg" />
+                                </audio>
+                            </div>
+                        }
+                    </td> @* Sample URL *@
+                    <td class="wordbreak">
+                        @{
+
+                            var Checked = "";
+                            if (@item.IsAdded == 1)
+                            {
+                                Checked = "checked";
+                            }
+
+
+                            <div class="onoffswitchVoice">
+                                <input id="CheckedTopics_@item.ID" name="CheckedTopics" type="checkbox" onclick="SaveVoiceToUser(@item.ID)" class="onoffswitchVoice-checkbox checkbox_voice @Checked" @Checked value="@item.ID" />
+
+                                @*<input type="checkbox" onclick="" name="CheckedTopics" id="CheckedTopics_@item.ID" class="form-control checkbox_voice @Checked" value="" @Checked style="width: 18px; height: 18px;" />*@
+                                <label class="onoffswitchVoice-label" for="CheckedTopics_@item.ID">
+                                    <span class="onoffswitchVoice-inner"></span>
+                                    <span class="onoffswitchVoice-switch"></span>
+                                </label>
+                            </div>
+
+
+                        }
+
+                    </td>
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}

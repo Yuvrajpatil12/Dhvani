@@ -1,0 +1,173 @@
+﻿@model X.PagedList.PagedList<Core.Entity.VoiceMasterSetting>
+@using Core.Entity.Enums;
+@using Core.Utility.Common
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+
+@{
+    Layout = null;
+}
+
+@if (Model != null && Model.Count() > 0)
+{    
+    <table id="voiceList" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+        <thead>
+            <tr role="row">
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_srno">Sr. No</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_photo">Photo</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_name">Name</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_gender">Gender</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_age">Age</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_displayname">Display Name</th>
+
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_language">Language</th>
+
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_accent">Accent</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_discription">Description</th>
+
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_voiceprovider">Voice Provider</th>
+              @*   <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_voicetype">Voice Type</th> *@
+
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_tag">Tag</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_bestfor">Best For</th>
+
+               @*  <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_locale">Locale</th> *@
+                @* <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_localename">Locale Name</th> *@
+               @*  <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_shortname">Short Name</th> *@
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_sampleurl">Sample URL</th>
+
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_characterlimit">Character Limit</th>
+               @*  <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_sampleratehertz">Sample Rate Hertz</th> *@
+               @*  <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_status">Status</th> *@
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_wordsperminute">Words Per Minute</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_speakstyle">Speak Style</th>
+                <th class="sorting" tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" id="col_createdDate">Created Date</th>
+                <th tabindex="0" aria-controls="voiceList" rowspan="1" colspan="1" style="width: 100px;">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr id="row_@item.ID">
+                    <td>@item.RowNumber</td>
+                    <td>
+                        <div class="listUserIconDiv">
+                            @* onclick="showUserDetails()" *@
+                            @if (!string.IsNullOrEmpty(item.VoiceImage))
+                            {
+                                <div class="listUserIconDivInner">
+                                    <img src="@($"{ConstantsCommon.Domain}/files/images/{@item.VoiceImage}")" alt="" class="userIcon" />                                 
+
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="listUserIconDivInner">
+                                    <img id="user_image" src="~/images/no-logo.jpg" alt="" class="userIcon" />
+
+                                </div>
+                            }
+
+                        </div>
+                    </td>
+                    <td class="wordbreak"><div style="width: 150px;">@item.VMName</div></td> @* Name *@
+                    <td class="wordbreak"><div style="width: 60px;">@item.VMGender</div></td> @* Gender *@
+                    <td class="wordbreak">@item.AgeBracket</td> @* Age *@
+                    <td class="wordbreak"><div style="width: 80px;">@item.VMDisplayName</div></td> @* Display Name *@
+
+                    <td class="wordbreak"><div style="width: 60px;">@item.VMLanguage</div></td> @* Language *@
+                    <td class="wordbreak">@item.VMAccent</td> @* Accent *@
+                    <td class=""><div style="width: 120px;">@item.Description</div></td> @* Description *@
+
+                    @* <td class="wordbreak"><div style="width: 60px;">@item.VMLocaleName</div></td> *@ @* Language *@
+                    @* <td class=""><div style="width: 120px;">@item.Description</div></td> *@ @* Description *@
+
+                    <td class="wordbreak"><div style="width: 80px;">@item.VoiceProvider</div></td> @* Voice Provider *@
+                   
+
+                   @*  <td class="wordbreak"><div style="width: 80px;">@item.VMVoiceType</div></td> *@ @* Voice Type *@
+                    <td class=""><div style="width: 100px;">@item.TagName</div></td> @* Tag *@
+                    <td class=""><div style="width: 100px;">@item.BestForName</div></td> @* Best For *@
+                    @* <td class="wordbreak"><div style="width: 60px;">@item.VMLocalName</div></td> *@ @*  Locale Name  *@
+                   @*  <td class="wordbreak"><div style="width: 80px;">@item.VMLocale</div></td> *@ @* Locale  *@
+                    @* <td class="wordbreak"><div style="width: 80px;">@item.VMShortName</div></td> *@ @* Short Name *@
+
+                    <td class="wordbreak">
+                        @* @item.SampleUrl *@
+
+
+                        @if (String.IsNullOrEmpty(item.SampleUrl))
+                        {
+                            <span class="audio-player-button iconAudioPlayer" style="pointer-events: none; opacity: 0.5;"></span>
+                        }
+                        else
+                        {
+                            <span class="audio-player-button iconAudioPlayer" onclick="playPauseAudio('mp3_@item.ID')"></span>
+                            <div class="audio-player">
+                                <audio id="mp3_@item.ID" class="mp3_audio">
+                                    <source src='@item.SampleUrl' />
+                                </audio>
+                            </div>
+                        }
+                    </td> @* Sample URL *@
+                    <td class="wordbreak"><div style="width: 60px;">@item.CharLimit</div></td> @* Character Limit *@
+                   @*  <td class="wordbreak"><div style="width: 60px;">@item.VMSampleRateHertz</div></td> *@ @* Sample Rate Hertz *@
+                  @*   <td class="wordbreak">@item.VMStatus</td> *@ @* Status *@
+                    <td class="wordbreak">@item.VMWordsPerMinute</td> @* Words Per Minute *@
+                    <td class=""><div style="width: 140px;">@item.StyleName</div></td> @* Speak Style *@
+
+
+                    @{
+                        try
+                        {
+                            // var istSdate = TimeZoneInfo.ConvertTimeFromUtc(Convert.ToDateTime(item.CreatedDate), TimeZoneInfo.FindSystemTimeZoneById("India Standard Time"));
+                            <td class="wordbreak"><div style="width: 145px;">@item.CreatedDate.ToString("dd/MM/yyyy h:mm:ss tt")</div></td>
+                        }
+                        catch
+                        {
+                            <td></td>
+                        }
+
+                       
+                    }
+
+                  
+
+                    <td class="wordbreak">
+                        @{
+                            var clsColor = "";
+                            var clslockunlock = "";
+                            var Onclick = "";
+                            var fieldDisabled = "";
+                            // var strTitle = "";
+                            // if (item.StatusId == 1)
+                            // {
+                            //     //clsColor = "bg-green";
+                            //     clsColor = "btnCust_unlock";
+                            //     clslockunlock = "fa fa-unlock";
+                            //     Onclick = "changeStatus(this,'" + @item.ID + "','0')";
+                            //     strTitle = "Enable";
+                            // }
+                            // else
+                            // {
+                            //     //clsColor = "bg-red";
+                            //     clsColor = "btnCust_lock";
+                            //     clslockunlock = "fa fa-lock";
+                            //     Onclick = "changeStatus(this,'" + @item.ID + "','1')";
+                            //     strTitle = "Disable";
+                            // }
+                            // <a id="Active" data-toggle="tooltip" title="@strTitle" onclick="@Onclick" class="btn-fa-addCustom @clsColor"><i class="@clslockunlock"></i></a>
+
+                            <a data-toggle="tooltip" title="Edit" href="@Url.Action("AddEdit", "VoiceMapper", new { ID = item.UUID })" class="btn-fa-addCustom btnCust_edit @fieldDisabled"><i class="fa fa-edit"></i></a>
+
+                        }
+
+                    </td>
+
+                  
+                </tr>
+            }
+        </tbody>
+    </table>
+}

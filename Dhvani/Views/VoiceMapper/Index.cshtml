@@ -1,0 +1,150 @@
+﻿@using Core.Models;
+@using Core.Utility.Common;
+@using X.PagedList.Mvc.Core;
+@using Core.Resources;
+@using Core.Entity.Enums;
+@using Microsoft.AspNetCore.Http;
+
+
+@model X.PagedList.PagedList<Core.Entity.VoiceMasterSetting>
+
+@{
+    ViewData["Title"] = "Voice";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Scripts {
+    <script type="text/javascript">
+
+        var searchUrl = '/VoiceMapper/Search';
+        var listtype = '@ViewBag.RequestList';
+    </script>
+    <script src="~/Scripts/knockout-3.1.0.js"></script>
+    <script src="~/Scripts/knockout.mapping-latest.js"></script>
+    <script src="~/Scripts/run_prettify.js"></script>
+    <script src="~/Scripts/responsive-table.js" type="text/javascript"></script>
+    <script src="~/Scripts/Common/pagesort.js"></script>
+    <script src="~/custom-js/voice.js"></script>
+    <script>
+        var custDateTime = new Date().getTime();
+        document.write("<script src=\"/Scripts/Common/commonlist.js?v=" + custDateTime + "\"><\/script>");
+
+        /*var playstatusflag = false;
+        function playPauseAudio(id) {
+
+            if (playstatusflag == false) {
+                console.log("Play Audio");
+                document.getElementById(id).play();
+                playstatusflag = true;
+                $("#" + id).parent().parent().find("span").removeClass("audio-player-button");
+                $("#" + id).parent().parent().find("span").addClass("audio-pause-button");
+            }
+            else {
+                console.log("Pause Audio");
+                document.getElementById(id).pause();
+                playstatusflag = false;
+                $("#" + id).parent().parent().find("span").removeClass("audio-pause-button");
+                $("#" + id).parent().parent().find("span").addClass("audio-player-button");
+            }
+            var aud = document.getElementById(id);
+            aud.onended = function () {
+                playstatusflag = false;
+                $("#" + id).parent().parent().find("span").removeClass("audio-pause-button");
+                $("#" + id).parent().parent().find("span").addClass("audio-player-button");
+            };
+        }*/
+            var playstatusflag = false;
+                //var hdnMp3Val = "";
+                function playPauseAudio(id) {
+                    //hdnMp3Val = "";
+                    //hdnMp3Val = $("#hdn" + id).val();
+                    //console.log("hdnMp3Val ", hdnMp3Val);
+                    //$("#" + id).attr("src", hdnMp3Val);
+
+                    $(".iconAudioPlayer").addClass("audio-player-button");
+                    $(".iconAudioPlayer").removeClass("audio-pause-button");
+                    var audioElements = document.getElementsByClassName("mp3_audio");
+                    for (var i = 0; i < audioElements.length; i++) {
+                        audioElements[i].pause();                
+                    }
+
+                    if (playstatusflag == false) {
+                        console.log("Play Audio");
+                        document.getElementById(id).play();
+                        playstatusflag = true;
+                        $("#" + id).parent().parent().find("span").removeClass("audio-player-button");
+                        $("#" + id).parent().parent().find("span").addClass("audio-pause-button");
+                    }
+                    else {
+                        console.log("Pause Audio");
+                        document.getElementById(id).pause();
+                        playstatusflag = false;
+                        $("#" + id).parent().parent().find("span").removeClass("audio-pause-button");
+                        $("#" + id).parent().parent().find("span").addClass("audio-player-button");
+                    }
+
+                    var aud = document.getElementById(id);
+                    aud.onended = function () {
+                        playstatusflag = false;
+                        $("#" + id).parent().parent().find("span").removeClass("audio-pause-button");
+                        $("#" + id).parent().parent().find("span").addClass("audio-player-button");
+                    };
+                }
+    </script>
+}
+
+<div class="content-wrapper box" id="divLoader">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <input type="hidden" id="page" name="page" value="0" />
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">@ViewBag.Title</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+            <div class="mtop15">
+                <div class="card">
+                    <div>
+                        <div class="listview-top-lp">
+                            <label class="mobhide">&nbsp;</label><br class="mobhide" />
+                            <input id="Search" type="text" maxlength="100" name="Search" class="form-control search-records input-search-listview" onkeydown="CallEnter(event, 'btnSearch')" placeholder="@Resource.lbl_search" />
+                            <input id="btnSearch" type="submit" value="" name="btnSearch" class="btn btn-primary btn-search-listview" onclick="go()" />
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="listview-top-rp">
+                            <ul class="btn-holder">
+                                <li class="lib-lang-holLP">
+                                    <span class="lib-reco-hol" id="dvRecPerPage">
+                                        <label>@Resource.lbl_recordsPerPage:</label><br />
+                                        @{
+                                            CommonData objCD = new CommonData(HttpContextAccessor);
+                                            string pageSize = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.GridPageSize.ToString()) != null ? HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.GridPageSize.ToString()) : "10");
+                                            SelectList pageSizes = new SelectList(objCD.GetPageSizes(), "Value", "Text", pageSize);
+                                        }
+                                        @Html.DropDownList("ddlPageSize", (IEnumerable<SelectListItem>)pageSizes, new { onchange = "changePageSize()", @class = "form-control dropdownDownArrow" })
+                                    </span>
+                                </li>
+                                @* <li>
+                                    <a class="btn btn-primary" asp-controller="VoiceMapper" asp-action="AddEdit">Add Voice</a>
+                                </li> *@
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div>
+                        <div id="dvCommon">
+                            @Html.Partial("_ListPartial", Model)
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>

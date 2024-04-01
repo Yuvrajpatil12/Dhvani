@@ -1,0 +1,180 @@
+﻿@model X.PagedList.PagedList<Core.Entity.Pronunciation>
+@using Core.Entity.Enums;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+
+@* @{
+    Layout = null;
+
+    var _id = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString())) : "");
+    TempData["userid"] = _id;
+    var _role = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) != null ? Convert.ToString(HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString())) : "");
+    TempData["UserRole"] = _role;
+
+} *@
+@section Scripts {
+    <script type="text/javascript">
+        var changeStatusUrl = '/Transaction/ChangeStatus/';
+        var searchUrl = '/Transaction/Search';
+        var listtype = '@ViewBag.RequestList';
+    </script>
+    <script src="~/Scripts/knockout-3.1.0.js"></script>
+    <script src="~/Scripts/knockout.mapping-latest.js"></script>
+    <script src="~/Scripts/run_prettify.js"></script>
+    <script src="~/Scripts/responsive-table.js" type="text/javascript"></script>
+    <script src="~/Scripts/Common/pagesort.js"></script>
+    <script src="~/custom-js/pronunciation.js"></script>
+   
+    <script>
+        var custDateTime = new Date().getTime();
+        document.write("<script src=\"/Scripts/Common/commonlist.js?v=" + custDateTime + "\"><\/script>");
+    </script>
+    <script>
+        var IsEdit = false;
+        $(document).ready(function () {
+            getLanguage();
+        });
+    </script>
+}
+<script src="~/js/ssml.js"></script>
+
+@if (Model != null && Model.Count() > 0)
+{
+    string strBorder = "";
+    if (ViewBag.IsExport != null && (bool)ViewBag.IsExport)
+    {
+        strBorder = "border='1'";
+    }
+    int inc = 0;
+
+
+
+    @foreach (var item in Model)
+    {
+        <form action="" id="frmEditPronunciation" method="post" enctype="multipart/form-data">
+            @* <div class="containerPronunciation">
+    <div class="col-md-12">
+    <div class="_jsMainPronunciationBox">
+    <div class="PronunciationBox" id="divPronunciationBox_0">
+    <input type="hidden" name="hdnPronunciationBox_0" value="0" id="hdnPronunciationBox_0" /> *@
+            <table id="tbl_0" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info" style="width: 1280px !important;">
+                <tbody>
+                    <tr id="editRow_@item.ID">
+                        <td class="wordbreak" style="width: 18%;">
+                            <input type="hidden" id="hdnlanguagevalues_@(inc+1)" value="@item.LocaleCode" />
+                            <input type="hidden" id="hdnVoicevalues_@(inc+1)" value="@item.ShortName" />
+                            <input type="hidden" id="hdnAccentvalues_@(inc+1)" value="@item.AccentCode" />
+                            <input type="hidden" id="hdnlanguage_@(inc+1)" value="@item.ID" />
+                            <input type="hidden" id="hdnlanguageCount_" value="@Model.Count" />
+                            <input type="hidden" id="hdnid" value="@item.ID" />
+                            <div class="form-control form-control-custom">
+                                <input type="text" id="yourWord_@item.ID" name="yourWord_@item.ID" value="@item.InitialText" class="disabledCustom ttsssml1_@item.ID" />
+                                
+                                <div class="playPauseContainer">
+                                    <span id="playbtn1_@item.ID" class="btn-pronunciation-play" onclick="GetVoiceEditPronunciation(1 , @item.ID)"><i class="fas fa-play"></i></span>
+                                    <span id="stopbtn1_@item.ID" onclick="resetAudio()" value="stop" class="playPause" style="display: none;">
+                                        <img src="~/images/sound_200.gif" style="width:18px" />
+                                        @* <i class="fa fa-pause"></i> *@
+                                    </span>
+                                    <span id="audioPlayer"></span>
+                                </div>
+                                
+                            </div>
+                        </td>
+                        <td class="wordbreak" style="width: 18%;">
+
+                            <div class="form-control form-control-custom">
+                                <input type="text" id="alternateSpelling_@item.ID" name="alternateSpelling_@item.ID" value="@item.AlternateText" class="alternateText disabledCustom ttsssml2_@item.ID" />
+                                <input type="hidden" id="type_@item.ID" value="0" />
+
+                                <input type="hidden" id="hdnid_@item.ID" value="@item.ID" />
+                                                                
+                                <div class="playPauseContainer">                                    
+                                    <span id="playbtn2_@item.ID" class="btn-pronunciation-play" onclick="GetVoiceEditPronunciation(2 , @item.ID)"><i class="fas fa-play"></i></span>
+                                    <span id="stopbtn2_@item.ID" onclick="resetAudio()" value="stop" class="playPause" style="display: none;">
+                                        <img src="~/images/sound_200.gif" style="width:18px" />
+                                        @* <i class="fa fa-pause"></i> *@
+                                    </span>
+                                    <span id="audioPlayer"></span>
+                                </div>
+                                
+                            </div>
+                        </td>
+
+                        <td class="wordbreak" style="width: 15%;">
+                            <input type="hidden" id="dictionaryLanguage_@item.ID" value="@item.LocaleCode" />
+                            <input type="text" id="localetext_@item.ID" name="alternateSpelling_@item.ID" value="@item.Locale" class="form-control disabledCustom" />
+@*                             <select class="form-control disabledCustom" id="dictionaryLanguage_@item.ID" name="dictionaryLanguage_@item.ID" onchange="getEditAccent('@item.LocaleCode','@item.ID')">
+                                <option value="0">Select</option>
+                            </select> *@
+                        </td>
+                        <td class="wordbreak" style="width: 15%;">
+                            <input type="hidden" id="accent_@item.ID" value="@item.AccentCode" />
+                            <input type="text" id="accenttext_@item.ID" name="" value="@item.Accent" class="form-control disabledCustom" />
+
+                          @*   <select class="form-control disabledCustom" id="accent_@item.ID" name="accent_@item.ID" onchange="getEditVoice('@item.AccentCode','@item.ID')">
+                                <option value="">Select</option>
+                            </select> *@
+                        </td>
+                        <td class="wordbreak" style="width: 15%;">
+                            <input type="hidden" id="voice_@item.ID" value="@item.ShortName" />
+                            <input type="text" id="voicetext_@item.ID" name="alternateSpelling_@item.ID" value="@item.DisplayName" class="form-control disabledCustom" />
+
+                            @* <select class="form-control disabledCustom" id="voice_@item.ID" name="voice_@item.ID">
+                                <option value="0">Select</option>
+                            </select> *@
+                        </td>
+                        <td class="wordbreak" style="width: 100px;">
+                            @{
+                                var clsColor = "";
+                                var clslockunlock = "";
+                                var Onclick = "";
+                                var fieldDisabled = "";
+                                var strTitle = "";
+                                if (item.StatusId == 1)
+                                {
+                                    //clsColor = "bg-green";
+                                    clsColor = "btnCust_unlock";
+                                    clslockunlock = "fa fa-unlock";
+                                    Onclick = "changeStatus(this,'" + @item.ID + "','0')";
+                                    strTitle = "Enable";
+                                }
+                                else
+                                {
+                                    //clsColor = "bg-red";
+                                    clsColor = "btnCust_lock";
+                                    clslockunlock = "fa fa-lock";
+                                    Onclick = "changeStatus(this,'" + @item.ID + "','1')";
+                                    strTitle = "Disable";
+                                }
+                                <a data-toggle="tooltip" title="Edit" class="btn btn-sm btn-primary" id="btnEdit_@item.ID" onclick="editSaveRow('@item.ID', 'Edit')" style="width: 52px;">Edit</a>
+                                <a data-toggle="tooltip" title="Save" class="btn btn-sm btn-primary" id="btnSave_@item.ID" onclick="editSaveRow('@item.ID', 'Save')" style="width: 52px; display: none;">Save</a>
+                                <a data-toggle="tooltip" title="Delete" class="btn btn-sm btn-default" onclick="editSaveRow('@item.ID', 'Delete');@Onclick"><i class="fa fa-trash"></i></a>
+                            }
+                        </td> 
+                        @{
+                            try
+                            {
+
+                                var istSdate = TimeZoneInfo.ConvertTimeFromUtc(Convert.ToDateTime(item.UpdateDate), TimeZoneInfo.FindSystemTimeZoneById("India Standard Time"));
+                                <td class="wordbreak" style="width: 10%;">@istSdate</td>
+                            }
+                            catch
+                            {
+                                <td></td>
+                            }
+                        }
+                      
+                    </tr>
+                </tbody>
+            </table>
+            @*</div>
+    </div>
+    </div>
+    </div> *@
+        </form>
+        inc++;
+    }
+
+}

@@ -1,0 +1,151 @@
+﻿@using Core.Models;
+@using Core.Utility.Common;
+@using X.PagedList.Mvc.Core;
+@using Core.Resources;
+@using Core.Entity.Enums;
+@using Microsoft.AspNetCore.Http;
+
+
+@model X.PagedList.PagedList<Core.Entity.Users>
+
+@{
+    ViewData["Title"] = "Voice";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Scripts {
+    <script type="text/javascript">
+        var changeStatusUrl = '/Users/ChangeStatus/';
+        var searchUrl = '/Admin/Search';
+        var listtype = '@ViewBag.RequestList';
+    </script>
+    <script src="~/Scripts/knockout-3.1.0.js"></script>
+    <script src="~/Scripts/knockout.mapping-latest.js"></script>
+    <script src="~/Scripts/run_prettify.js"></script>
+    <script src="~/Scripts/responsive-table.js" type="text/javascript"></script>
+    <script src="~/Scripts/Common/pagesort.js"></script>
+    <script>
+        var custDateTime = new Date().getTime();
+        document.write("<script src=\"/Scripts/Common/commonlist.js?v=" + custDateTime + "\"><\/script>");
+    </script>
+}
+
+<div class="content-wrapper box" id="divLoader">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <input type="hidden" id="page" name="page" value="0" />
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">@ViewBag.Title</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+            <div class="mtop15">
+                <div class="card">
+                    <div>
+                        <div class="">
+                            <div class="form-group" style="color: #ffffff; font-size: 12px;">Choose the best suited voice for your project</div>
+
+                            <div class="clearfix"></div>
+                            <div class="row_SelVoice_col">
+                                <div class="selVoice_col">
+                                    <div class="form-group">
+                                        <label>Gender</label><br />
+                                        <select name="" id="" class="form-control">
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="selVoice_col">
+                                    <div class="form-group">
+                                        <label>Age</label><br />
+                                        <select name="" id="" class="form-control">
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="selVoice_col">
+                                    <div class="form-group">
+                                        <label>Language</label><br />
+                                        <select name="" id="" class="form-control">
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="selVoice_col">
+                                    <div class="form-group">
+                                        <label>Accent</label><br />
+                                        <select name="" id="" class="form-control">
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="selVoice_col">
+                                    <div class="form-group">
+                                        <label>Industry</label><br />
+                                        <select name="" id="" class="form-control">
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="selVoice_col">
+                                    <div class="form-group">
+                                        <label>Tag</label><br />
+                                        <select name="" id="" class="form-control">
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+                        <div class="clearfix"></div>
+
+                        <div class="listview-top-lp">
+                            <label class="mobhide">&nbsp;</label><br class="mobhide" />
+                            <input id="Search" type="text" maxlength="100" name="Search" class="form-control search-records input-search-listview" onkeydown="CallEnter(event, 'btnSearch')" placeholder="@Resource.lbl_search" />
+                            <input id="btnSearch" type="submit" value="" name="btnSearch" class="btn btn-primary btn-search-listview" onclick="go()" />
+                            <div class="clear"></div>
+                        </div>
+                        <div class="listview-top-rp">
+                            <ul class="btn-holder">
+                                <li class="lib-lang-holLP">
+                                    <span class="lib-reco-hol" id="dvRecPerPage">
+                                        <label>@Resource.lbl_recordsPerPage:</label><br />
+                                        @{
+                                            CommonData objCD = new CommonData(HttpContextAccessor);
+                                            string pageSize = (HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.GridPageSize.ToString()) != null ? HttpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.GridPageSize.ToString()) : "10");
+                                            SelectList pageSizes = new SelectList(objCD.GetPageSizes(), "Value", "Text", pageSize);
+                                        }
+                                        @Html.DropDownList("ddlPageSize", (IEnumerable<SelectListItem>)pageSizes, new { onchange = "changePageSize()", @class = "form-control dropdownDownArrow" })
+                                    </span>
+                                </li>
+                                <li>
+                                    <a class="btn btn-primary" asp-area="" asp-controller="Voice" asp-action="AddEdit">Add Voice</a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div>
+                        <div id="dvCommon">
+                            @Html.Partial("_SelectVoiceListPartial", Model)
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>

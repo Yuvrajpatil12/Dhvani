@@ -1,0 +1,129 @@
+﻿@{
+    ViewData["Title"] = "SSML";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="/js/ssml.js"></script>
+<div class="content-wrapper box" id="divLoader">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <input type="hidden" id="page" name="page" value="0" />
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">@ViewBag.Title</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+            <div class="mtop15">
+                <div class="card">
+                    <div class="">
+                        <div id="dvCommon">
+                            <form action="" id="frmDictionary" method="post">
+                                <div id="divLoader" class="box">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p class="text-info"><small>All the fields marked <span class="star">*</span> are compulsory</small></p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="languageselect">Language</label><span class="starField">*</span><br />
+                                                @* <select id="languageselect" name="languageselect" class="form-control" style="background-color: lightcyan; width:20%">
+                                                <option value="en-IN">English (India)</option>
+                                                <option value="en-US">English (United States)</option>
+                                                <option value="de-DE">German (Germany)</option>
+                                                <option value="de-CH">German (Switzerland)</option>
+                                                </select> *@
+                                                <select id="languageselect" name="languageselect" class="form-control" style="background-color: lightcyan;"></select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="voiceselect">Voice</label><span class="starField">*</span><br />
+                                                <select id="voiceselect" name="voiceselect" class="form-control" style="background-color: lightcyan;">
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <div class="ssmlUserText">
+                                                    <div class="ssmlUserTextInner">
+                                                        <label>User Text:</label><span class="starField">*</span><br />
+                                                        <textarea id="ttsssml1" name="ttsssml1" class="form-control ssmlTextarea" value=""></textarea>
+                                                    </div>
+
+                                                    <ul class="list--links-horizontal ssmlUserPlayList">
+                                                        <li id="playli">
+                                                            <input type="button" id="playbtn1" class="btn-submit btn btn-primary" onclick="GetVoice(1)" value="Play" />
+                                                            <span id="stopbtn1" class="btn-submit btn btn-primary" onclick="resetAudio(1)" value="stop" style="display: none;">
+                                                                <img src="~/images/sound_200.gif" style="width:20px" />
+                                                                <span>Stop</span>
+                                                            </span>
+                                                            <div id="audioPlayer1">
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <div class="ssmlUserText">
+                                                    <div class="ssmlUserTextInner">
+                                                        <label>Alternate User Text:</label><span class="starField">*</span><br />
+                                                        <textarea id="ttsssml2" name="ttsssml2" class="form-control ssmlTextarea" value=""></textarea>
+                                                    </div>
+
+                                                    <ul class="list--links-horizontal ssmlUserPlayList">
+                                                        <li id="playli">
+                                                            <input type="button" id="playbtn2" class="btn-submit btn btn-primary" onclick="GetVoice(2)" value="Play" />
+                                                            <span id="stopbtn2" class="btn-submit btn btn-primary" onclick="resetAudio(2)" value="stop" style="display: none;">
+                                                                <img src="~/images/sound_200.gif" style="width:20px" />
+                                                                <span>Stop</span>
+                                                            </span>
+                                                            <div id="audioPlayer2">
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                @* <button class="btn btn-default" type="button" onclick="history.back()">Back</button> *@
+                                                <input type="button" onclick="SaveDictionary()" class="btn btn-primary" value="Save" />
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+@section Scripts {
+    <script src="~/custom-js/admin.js"></script>
+    <script>
+        var IsEdit = false;
+        $(document).ready(function () {
+            getDropDownValues();
+        });
+    </script>
+}

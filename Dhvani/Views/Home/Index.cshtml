@@ -1,0 +1,147 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-wrapper box" id="divLoader">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <input type="hidden" id="page" name="page" value="0" />
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">@ViewBag.Title</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+            <div class="mtop15">
+                <div class="card">                   
+                    <div class="">                        
+                        <div id="dvCommon">
+                            <form action="" id="frmTextToSpeech" method="post">
+                                <div class="row">
+                                    <div class="col-md-12">                                        
+                                        <p class="text-info"><small>All the fields marked <span class="star">*</span> are compulsory</small></p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="voicestyleselect">Language</label> <span class="starField">*</span><br />
+                                            <select class="form-control firstLang" id="languageselect" name="languageselect">
+                                                <option value="0">Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="voicestyleselect">Accent</label> <span class="starField">*</span><br />
+                                            <select class="form-control firstAccent" id="accent" name="accent">
+                                                <option value="0">Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="voicestyleselect">Voice</label> <span class="starField">*</span><br />
+                                            <select class="form-control firstVoice" id="voiceselect" name="voiceselect">
+                                                <option value="0">Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                   @*  <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="languageselect">Language</label><span class="starField">*</span><br />
+                                            <select id="languageselect" name="languageselect" class="form-control" style="background-color: lightcyan;"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="voiceselect">Voice</label><span class="starField">*</span><br />
+                                            <select id="voiceselect" name="voiceselect" class="form-control" style="background-color: lightcyan;">
+                                                <option value="">select</option>
+                                            </select>
+                                        </div>
+                                    </div> *@
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="voicestyleselect">Speaking style</label><span class="starField">*</span><br />
+                                            <select id="stylelist" name="stylelist" data-bi-id="demo-voicestyle-selector" class="form-control" style="background-color: lightcyan;">
+                                                <option value="general">General</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="speed" id="speedlabel">Speaking speed: <output id="speedOutputId">1.0</output></label>
+                                            <div class="slider form-control">
+                                                <input type="range" id="speed" name="speed" min="-100" max="200" value="0" class="slider__input" oninput="speedOutputId.value = speed.value" data-bi-id="demo-rate-slider" aria-label="Speaking speed" style="width: 100%" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="pitch" id="pitchlabel">Pitch: <output id="pitchOutputId">1.0</output></label>
+                                            <div class="slider form-control">
+                                                <input type="range" id="pitch" name="pitch" min="-50" max="50" value="0" class="slider__input" oninput="pitchOutputId.value = pitch.value" data-bi-id="demo-pitch-slider" aria-label="Pitch" style="width: 100%" />
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                    <div class="clearfix"></div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="hidden" name="hdnKioskDescription_0" value="0" />
+                                            <label for="languageselect">Voice Content</label><span class="starField">*</span> <span style="font-size: 11px; color: gray;">(allow 8000 characters including space)</span><br />
+                                            <textarea id="ttsssml" name="ttsssml" class="form-control" style="width:100%; height: 300px; resize: none; background-color: lightcyan;" value="" maxlength="8000"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">                                            
+                                            <ul class="list--links-horizontal" style="list-style-type: none; padding:0px;">
+                                                <li id="playli">
+                                                    @* <button class="btn btn-default" type="button" onclick="history.back()">Back</button> *@
+                                                    <input type="button" id="playbtn" class="btn-submit btn btn-primary" onclick="GetVoice()" value="Play" />
+                                                    <span id="stopbtn" class="btn-submit btn btn-primary" onclick="resetAudio()" value="stop" style="display: none;">
+                                                        @*<svg aria-hidden="true" role="presentation" data-slug-id="audio-stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" style="width: 12px; height: 12px; fill: #ffffff;">
+                                                        <path d="M0,0H21V21H0ZM19.5,19.5V1.5H1.5v18Z"></path>
+                                                        </svg>*@
+                                                        <img src="~/images/sound_200.gif" style="width:20px" />
+                                                        <span>Stop</span>
+                                                    </span>
+                                                    <span id="audioPlayer">
+                                                    </span>
+                                                    <span id="dvaudioPlayerLink" class="hide">
+                                                        <a id="audioPlayerLink" target="_blank" href="#" class="btn btn-default">Download</a>
+                                                    </span>
+                                                    <br />
+                                                    @* <div>
+                                                    <button class="btn-submit btn btn-primary" asp-action="AddToDictionary" asp-controller="Home" >Pronunciation</button>
+                                                    </div>*@
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </div>
+</div>
+
+<div>
+    @section Scripts 
+    {
+        
+        <script src="~/custom-js/pronunciation.js"></script>
+        <script>
+            var IsEdit = false;
+            $(document).ready(function () {
+                getFLanguage();
+            });
+        </script>
+    }
+</div>

@@ -1,0 +1,75 @@
+﻿@model List<Core.Entity.VoiceMaster>
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@using Core.Entity.Enums;
+@using Core.Utility;
+@using Core.Utility.Common;
+@{
+    Layout = null;
+}
+
+
+@if (Model != null && Model.Count() > 0)
+{   
+   <form action="" id="frmVoice" method="post">
+
+        <div class="btnHolder_addVoiceToUser">
+            <a class="btn btn-sm btn-primary btnCopyToMyTopic" id="saveButton" onclick="AddVoiceToUser()" disabled>Save</a>
+            <label for="select_all_voices" class="pull-right selectAll btn btn-sm btn-primary" style="height: 31px;">
+                <input type="checkbox" onclick="" id="select_all_voices" class="form-control" style="width: 18px; height: 18px;" /> <span>Select all</span>
+            </label>
+            <sapn class="btn btn-sm btn-primary" onclick="unSelectAll()">Unselect All</sapn>
+        </div>
+
+        <table id="example2" class="table table-bordered table-hover dataTable dtr-inline" role="grid" aria-describedby="example2_info">
+            <thead>
+                <tr role="row">
+                    <th tabindex="" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" >Sr. No</th>
+                    <th tabindex="" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" >Name</th>
+                    <th tabindex="" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="">Gender</th>
+                    <th tabindex="" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" >MP3</th>
+                    <th tabindex="" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" >Language</th>
+                    <th tabindex="" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="">Accent</th>
+                    <th tabindex="" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" >Accent Code</th>
+                    <th tabindex="" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="">Provider</th>
+                    <th tabindex="" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" >Character Limit</th>
+                    <th tabindex="" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="" >Speak Speed</th>
+                    <th tabindex="" aria-controls="voiceList" rowspan="1" colspan="1" aria-label="">&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    var Checked = "";
+                    if (@item.IsAdded == 1)
+                    {
+                        Checked = "checked";
+                    }
+                    <tr>
+                        <input id="VoiceMasterUserMapID_@item.ID" type="hidden" value="@item.VoiceMasterUserMapID" />
+                        <input id="VoiceMasterID_@item.ID" type="hidden" value="@item.ID" />
+                        <td>@item.RowNumber</td>
+                        <td class="wordbreak">@item.Name</td>
+                        <td class="wordbreak">@item.Gender</td>
+                        <td class="wordbreak"> @item.SampleURL</td> @* MP3 *@
+                        <td class="wordbreak">@item.LocaleName </td> @* Language *@
+                        <td class="wordbreak">@item.Accent</td>
+                        <td class="wordbreak">@item.Locale</td> @* Languagecode *@
+                        <td class="wordbreak">@item.Provider</td>
+                        <td class="wordbreak">@item.CharLimit </td> @* Character limit  *@
+                        <td class="wordbreak">@item.WordsPerMinute</td> @* Accent *@
+
+                        <td class=" row-index">
+                            <input type="checkbox" onclick="" name="CheckedTopics" id="CheckedTopics_@item.ID" class="form-control checkbox_voice @Checked" value="" @Checked style="width: 18px; height: 18px;" />
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+    </form>
+}
+
+
