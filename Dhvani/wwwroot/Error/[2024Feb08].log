@@ -1,0 +1,140 @@
+LogTime : 12:30:48 PM 
+Module Name : VoiceMaster (GetVoiceMasterList())
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Invalid column name 'AgeBracket'.
+Invalid column name 'Provider'.
+ 
+Error Message GetMethod FullName : OnError
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:59:52 PM 
+Module Name : DataAccess.Command (Execute this.CommandText: (Pronunciation_SAVE))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Error converting data type nvarchar to bigint.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:59:55 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\A_GitHub_Dhvani\Dhvani\DhvaniSolution\Dhvani\bin\Debug\net8.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:02:22 PM 
+Module Name : DataAccess.Command (Execute this.CommandText: (Pronunciation_SAVE))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Procedure or function 'Pronunciation_SAVE' expects parameter '@ArtistUUID', which was not supplied.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:02:24 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\A_GitHub_Dhvani\Dhvani\DhvaniSolution\Dhvani\bin\Debug\net8.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:10:47 PM 
+Module Name : Core.Controllers.App.PronunciationController (GetTTSStatus(userID = Microsoft.AspNetCore.Mvc.JsonResult))
+
+Error Source : Anonymously Hosted DynamicMethods Assembly
+ 
+Error Message : The best overloaded method match for 'System.Collections.Generic.List<Core.Entity.Pronunciation>.Add(Core.Entity.Pronunciation)' has some invalid arguments
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:04:13 PM 
+Module Name : VoiceMaster (GetVoiceRecord())
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Unable to cast object of type '<GroupJoinIterator>d__119`4[<>f__AnonymousType2`2[Core.Entity.VoiceMaster,System.Collections.Generic.IEnumerable`1[<>f__AnonymousType0`3[System.Int32,System.String,System.Nullable`1[System.Int64]]]],<>f__AnonymousType1`3[System.Int32,System.String,System.Nullable`1[System.Int64]],System.Nullable`1[System.Int64],<>f__AnonymousType3`20[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List`1[<>f__AnonymousType4`1[System.String]],System.Collections.Generic.List`1[<>f__AnonymousType5`1[System.String]],System.Collections.Generic.List`1[<>f__AnonymousType5`1[System.String]]]]' to type 'System.Collections.Generic.List`1[Core.Entity.VoiceMaster]'.
+ 
+Error Message GetMethod FullName : ChkCast_Helper
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:06:09 PM 
+Module Name : VoiceMaster (GetVoiceRecord())
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Unable to cast object of type '<GroupJoinIterator>d__119`4[<>f__AnonymousType2`2[Core.Entity.VoiceMaster,System.Collections.Generic.IEnumerable`1[<>f__AnonymousType0`3[System.Int32,System.String,System.Nullable`1[System.Int64]]]],<>f__AnonymousType1`3[System.Int32,System.String,System.Nullable`1[System.Int64]],System.Nullable`1[System.Int64],<>f__AnonymousType3`20[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List`1[<>f__AnonymousType4`1[System.String]],System.Collections.Generic.List`1[<>f__AnonymousType5`1[System.String]],System.Collections.Generic.List`1[<>f__AnonymousType5`1[System.String]]]]' to type 'System.Collections.Generic.List`1[Core.Entity.VoiceMaster]'.
+ 
+Error Message GetMethod FullName : ChkCast_Helper
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:08:44 PM 
+Module Name : Core.Controllers.App.VoiceController (GetVoice(userID = Microsoft.AspNetCore.Mvc.JsonResult))
+
+Error Source : Anonymously Hosted DynamicMethods Assembly
+ 
+Error Message : Cannot implicitly convert type 'object' to 'System.Collections.Generic.List<Core.Entity.VoiceMaster>'. An explicit conversion exists (are you missing a cast?)
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:09:38 PM 
+Module Name : Core.Controllers.App.VoiceController (GetVoice(userID = Microsoft.AspNetCore.Mvc.JsonResult))
+
+Error Source : Anonymously Hosted DynamicMethods Assembly
+ 
+Error Message : Cannot implicitly convert type 'object' to 'System.Collections.Generic.List<Core.Entity.VoiceMaster>'. An explicit conversion exists (are you missing a cast?)
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:13:57 PM 
+Module Name : Core.Controllers.App.VoiceController (GetVoice(userID = Microsoft.AspNetCore.Mvc.JsonResult))
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Unable to cast object of type '<>f__AnonymousType3`20[System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List`1[<>f__AnonymousType4`1[System.String]],System.Collections.Generic.List`1[<>f__AnonymousType5`1[System.String]],System.Collections.Generic.List`1[<>f__AnonymousType5`1[System.String]]]' to type 'Core.Entity.VoiceMaster'.
+ 
+ 
+ 
+======================================== 
+ 

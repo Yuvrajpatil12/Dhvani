@@ -1,0 +1,209 @@
+LogTime : 2:22:51 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"test test test test test","DisplayName":"AnahitNeural","Locale":"hy-AM","ShortName":"hy-AM-AnahitNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:23:23 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"test test test test test","DisplayName":"AnahitNeural","Locale":"hy-AM","ShortName":"hy-AM-AnahitNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:23:26 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/44/AnahitNeural_202403191423233172.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : 0c5c28c4-8c07-4da2-a76b-17981a0434e6
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:09:34 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"test trets tets tetst tetst","DisplayName":"AliNeural","Locale":"ar-BH","ShortName":"ar-BH-AliNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:13:22 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"test trets tets tetst tetst","DisplayName":"AliNeural","Locale":"ar-BH","ShortName":"ar-BH-AliNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:18:55 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"test tets tetst tetst tets t","DisplayName":"AnahitNeural","Locale":"hy-AM","ShortName":"hy-AM-AnahitNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:20:24 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"superadmin@wits.bz nikita671578@wits.bz\nUser Image\nLogo\n Home\n Transaction\n Pronunciation\nHome\nAll the fields marked * are compulsory\n\nLanguage *\n\nArmenian\nAccent *\n\nArmenia\nVoice *\n\nAnahit (Neural)\nSpeaking style*\n\nGeneral\nSpeaking speed: 1.0\n\nPitch: 1.0\n\nVoice Content* (allow 8000 characters including space)\n\nV1.0.0, Copyright © GoPhygital 2024.Powered by GoPhygital","DisplayName":"AnahitNeural","Locale":"hy-AM","ShortName":"hy-AM-AnahitNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:35:01 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"testetstetste testv te vd nmdnln mkl yu rfa i \\efb \n\nbjbd d","DisplayName":"MekdesNeural","Locale":"am-ET","ShortName":"am-ET-MekdesNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:35:12 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"testetstetste testv te vd nmdnln mkl yu rfa i \\efb \n\nbjbd d","DisplayName":"MekdesNeural","Locale":"am-ET","ShortName":"am-ET-MekdesNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:35:15 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/48/MekdesNeural_202403191735121412.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : 40c5bc8c-1a5b-4d79-82a5-6cf48380c39f
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:35:42 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"testetstetste testv te vd nmdnln mkl yu rfa i \\efb \n\nbjbd d","DisplayName":"MekdesNeural","Locale":"am-ET","ShortName":"am-ET-MekdesNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:44:28 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/48/MekdesNeural_202403191736405195.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : 40c5bc8c-1a5b-4d79-82a5-6cf48380c39f
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:11:08 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"test tet tet tets tets test test ","DisplayName":"AmehaNeural","Locale":"am-ET","ShortName":"am-ET-AmehaNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:27:04 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"superadmin@wits.bz nikita671578@wits.bz\nUser Image\nLogo\n Home\n Transaction\n Pronunciation\nHome\nAll the fields marked * are compulsory\n\nLanguage *\n\nArabic\nAccent *\n\nBahrain\nVoice *\n\nLaila (Neural)\nSpeaking style*\n\nGeneral\nSpeaking speed: 1.0\n\nPitch: 1.0\n\nVoice Content* (allow 8000 characters including space)\n\nV1.0.0, Copyright © GoPhygital 2024.Powered by GoPhygital","DisplayName":"LailaNeural","Locale":"ar-BH","ShortName":"ar-BH-LailaNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:31:52 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"i am yuvraj patil from dhule ","DisplayName":"RanaNeural","Locale":"ar-IQ","ShortName":"ar-IQ-RanaNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:36:02 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"i am developer","DisplayName":"NilarNeural","Locale":"my-MM","ShortName":"my-MM-NilarNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:39:17 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"allow 8000 characters including space","DisplayName":"AnahitNeural","Locale":"hy-AM","ShortName":"hy-AM-AnahitNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:59:23 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"test tets test test test test ","DisplayName":"LailaNeural","Locale":"ar-BH","ShortName":"ar-BH-LailaNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:59:34 PM 
+Module Name : Dhvani.Controllers.GoogleTTS (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"test tets test test test test ","DisplayName":"LailaNeural","Locale":"ar-BH","ShortName":"ar-BH-LailaNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 

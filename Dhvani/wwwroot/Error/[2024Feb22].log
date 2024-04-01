@@ -1,0 +1,248 @@
+LogTime : 9:10:15 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:10:16 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:10:33 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:10:33 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:11:28 PM 
+Module Name : DataAccess.Command (Execute this.CommandText: (Pronunciation_SAVE))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Procedure or function Pronunciation_SAVE has too many arguments specified.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:11:28 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\A_GitHub_Dhvani\Dhvani\DhvaniSolution\Dhvani\bin\Debug\net8.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:11:50 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:11:51 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:11:54 PM 
+Module Name : DataAccess.Command (Execute this.CommandText: (Pronunciation_SAVE))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Procedure or function Pronunciation_SAVE has too many arguments specified.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:11:54 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\A_GitHub_Dhvani\Dhvani\DhvaniSolution\Dhvani\bin\Debug\net8.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:12:08 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:12:10 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:13:22 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:13:24 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:13:49 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:13:50 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 

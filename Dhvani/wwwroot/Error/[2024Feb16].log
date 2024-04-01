@@ -1,0 +1,901 @@
+LogTime : 11:19:36 AM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:19:36 AM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:20:15 AM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:20:16 AM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:20:18 AM 
+Module Name : Dhvani.Controllers.VoiceController ((TextToSpeech= {"objVM":{"VoiceText":"Pratikaa","DisplayName":null,"Locale":"af-ZA","ShortName":"","SpeakingStyle":"general","SpeakingSpeed":"1","Pitch":"1","UserAPIKey":"cmsssml","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}))
+
+Error Source : Dhvani
+ 
+Error Message : Index was outside the bounds of the array.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:22:03 AM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:22:03 AM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:22:23 AM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:22:23 AM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:22:39 AM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:22:39 AM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:22:42 AM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:22:43 AM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:22:58 AM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:22:58 AM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:23:00 AM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:23:00 AM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 1:32:13 PM 
+Module Name : VoiceMasterSetting (GetVoiceMasterList())
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Procedure or function 'VoiceMaster_GetList' expects parameter '@UserID', which was not supplied.
+ 
+Error Message GetMethod FullName : OnError
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 1:34:34 PM 
+Module Name : VoiceMasterSetting (GetVoiceMasterList())
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Procedure or function 'VoiceMaster_GetList' expects parameter '@UserID', which was not supplied.
+ 
+Error Message GetMethod FullName : OnError
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 1:59:14 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (GetList(query=adrisortColumn=accent,sortOrder=asc,page=1,size=10, flag=search))
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : <GetListVoice>b__0
+ 
+Error Message GetFileName : AddVoiceToUserController.cs
+ 
+Error Message GetFileLineNumber : 164
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:01:39 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (GetList(query=adrisortColumn=accent,sortOrder=asc,page=1,size=10, flag=search))
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : <GetListVoice>b__0
+ 
+Error Message GetFileName : AddVoiceToUserController.cs
+ 
+Error Message GetFileLineNumber : 164
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:09:51 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (GetList(query=willemsortColumn=,sortOrder=asc,page=1,size=10, flag=search))
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : <GetListVoice>b__0
+ 
+Error Message GetFileName : AddVoiceToUserController.cs
+ 
+Error Message GetFileLineNumber : 164
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 4:59:50 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (GetList(query=sortColumn=displayname,sortOrder=desc,page=1,size=460, flag=sort))
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : GetListVoice
+ 
+Error Message GetFileName : AddVoiceToUserController.cs
+ 
+Error Message GetFileLineNumber : 170
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:59:00 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:59:02 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:59:05 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:59:07 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:59:40 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:59:45 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:59:47 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:59:47 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:09:52 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:09:52 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:09:54 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:09:54 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:14:38 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:14:38 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:14:39 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:14:39 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:23:11 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:23:11 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:23:13 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:23:13 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:41:26 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (Index)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : The input string 'undefined' was not in a correct format.
+ 
+Error Message GetMethod FullName : ThrowFormatException
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:41:28 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (Index)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : The input string 'undefined' was not in a correct format.
+ 
+Error Message GetMethod FullName : ThrowFormatException
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:25:12 PM 
+Module Name : DataAccess.Command (Execute this.CommandText: (VoiceMasterUserMap_SAVE))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+456
+The statement has been terminated.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:25:12 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\A_GitHub_Dhvani\Dhvani\DhvaniSolution\Dhvani\bin\Debug\net8.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:26:15 PM 
+Module Name : DataAccess.Command (Execute this.CommandText: (VoiceMasterUserMap_SAVE))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+2
+The statement has been terminated.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:26:15 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\A_GitHub_Dhvani\Dhvani\DhvaniSolution\Dhvani\bin\Debug\net8.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:30:13 PM 
+Module Name : DataAccess.Command (Execute this.CommandText: (VoiceMasterUserMap_SAVE))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+460
+The statement has been terminated.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:30:14 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\A_GitHub_Dhvani\Dhvani\DhvaniSolution\Dhvani\bin\Debug\net8.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:35:52 PM 
+Module Name : DataAccess.Command (Execute this.CommandText: (VoiceMasterUserMap_SAVE))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+460
+The statement has been terminated.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:35:52 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\A_GitHub_Dhvani\Dhvani\DhvaniSolution\Dhvani\bin\Debug\net8.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:39:40 PM 
+Module Name : DataAccess.Command (Execute this.CommandText: (VoiceMasterUserMap_SAVE))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:39:40 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\A_GitHub_Dhvani\Dhvani\DhvaniSolution\Dhvani\bin\Debug\net8.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:45:59 PM 
+Module Name : DataAccess.Command (Execute this.CommandText: (VoiceMasterUserMap_SAVE))
+
+Error Source : Core .Net SqlClient Data Provider
+ 
+Error Message : Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:45:59 PM 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Could not find a part of the path 'D:\A_GitHub_Dhvani\Dhvani\DhvaniSolution\Dhvani\bin\Debug\net8.0\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 

@@ -1,0 +1,297 @@
+LogTime : 10:59:25 AM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["44"]},{"Key":"Check","Value":["1"]},{"Key":"VoiceMasterID","Value":["1"]},{"Key":"VoiceMasterUserMapID","Value":["8784"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 10:59:35 AM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["44"]},{"Key":"Check","Value":["1"]},{"Key":"VoiceMasterID","Value":["1"]},{"Key":"VoiceMasterUserMapID","Value":["8784"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:03:40 AM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["35"]},{"Key":"Check","Value":["0"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:12:45 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"yourWord","Value":["Hello"]},{"Key":"alternateSpelling","Value":["Hellooo"]},{"Key":"languageselect_value","Value":["am"]},{"Key":"languageselect_text","Value":["Amharic"]},{"Key":"accent_value","Value":["am-ET"]},{"Key":"accent_text","Value":["Ethiopia"]},{"Key":"voiceselect_value","Value":[""]},{"Key":"voiceselect_text","Value":["Select Voice"]},{"Key":"SaveEdit","Value":["1"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:13:00 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"Hello","DisplayName":null,"Locale":"am-ET","ShortName":"","SpeakingStyle":"general","SpeakingSpeed":"1","Pitch":"1","UserAPIKey":"cmsssml","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:13:01 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"Hello","DisplayName":"Ameha","Locale":"am-ET","ShortName":"am-ET-AmehaNeural","SpeakingStyle":"general","SpeakingSpeed":"1","Pitch":"1","UserAPIKey":"cmsssml","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 1:00:20 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["46"]},{"Key":"Check","Value":["1"]},{"Key":"VoiceMasterID","Value":["3"]},{"Key":"VoiceMasterUserMapID","Value":["0"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 1:01:22 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["46"]},{"Key":"Check","Value":["0"]},{"Key":"VoiceMasterID","Value":["26"]},{"Key":"VoiceMasterUserMapID","Value":["10169"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 1:01:58 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["46"]},{"Key":"Check","Value":["1"]},{"Key":"VoiceMasterID","Value":["4"]},{"Key":"VoiceMasterUserMapID","Value":["0"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:20:05 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["46"]},{"Key":"Check","Value":["1"]},{"Key":"VoiceMasterID","Value":["1"]},{"Key":"VoiceMasterUserMapID","Value":["10171"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:20:06 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["46"]},{"Key":"Check","Value":["1"]},{"Key":"VoiceMasterID","Value":["2"]},{"Key":"VoiceMasterUserMapID","Value":["10170"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:20:53 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"yourWord","Value":["Pratik"]},{"Key":"alternateSpelling","Value":["Pratikaa"]},{"Key":"languageselect_value","Value":["af"]},{"Key":"languageselect_text","Value":["Afrikaans"]},{"Key":"accent_value","Value":["af-ZA"]},{"Key":"accent_text","Value":["South Africa"]},{"Key":"voiceselect_value","Value":["af-ZA-AdriNeural"]},{"Key":"voiceselect_text","Value":["Adri (Neural)"]},{"Key":"SaveEdit","Value":["1"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:21:15 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"yourWord","Value":["English"]},{"Key":"alternateSpelling","Value":["Englishaaa"]},{"Key":"languageselect_value","Value":["af"]},{"Key":"languageselect_text","Value":["Afrikaans"]},{"Key":"accent_value","Value":["af-ZA"]},{"Key":"accent_text","Value":["South Africa"]},{"Key":"voiceselect_value","Value":[""]},{"Key":"voiceselect_text","Value":["Select Voice"]},{"Key":"SaveEdit","Value":["1"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:31:02 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["46"]},{"Key":"Check","Value":["0"]},{"Key":"VoiceMasterID","Value":["1"]},{"Key":"VoiceMasterUserMapID","Value":["10171"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:31:10 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["46"]},{"Key":"Check","Value":["0"]},{"Key":"VoiceMasterID","Value":["4"]},{"Key":"VoiceMasterUserMapID","Value":["10173"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:31:12 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["46"]},{"Key":"Check","Value":["0"]},{"Key":"VoiceMasterID","Value":["5"]},{"Key":"VoiceMasterUserMapID","Value":["10174"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:38:07 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"Please speakaaaa from POSTMAN","DisplayName":"AdriNeural","Locale":"af-ZA","ShortName":"af-ZA-AdriNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":null,"CallBackUrl":"https://aivoice.logthis.in/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:38:08 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"Please speakaaaa from POSTMAN","DisplayName":"AdriNeural","Locale":"af-ZA","ShortName":"af-ZA-AdriNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"e0472821-4bb6-46c6-8440-b982cdf1d735","CallBackUrl":"https://aivoice.logthis.in/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:38:09 PM 
+Module Name : Dhvani.Controllers.VoiceController ((UUID is Generated  = 68ee37f9-e918-4777-a2e0-509ad440e7a3))
+
+Error Source : INFOLOG 
+ 
+Error Message : 68ee37f9-e918-4777-a2e0-509ad440e7a3
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:42:30 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/3/AdriNeural_202402191438086737.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : 68ee37f9-e918-4777-a2e0-509ad440e7a3
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:43:29 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"Please speakaaaa from POSTMAN","DisplayName":"AdriNeural","Locale":"af-ZA","ShortName":"af-ZA-AdriNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":null,"CallBackUrl":"https://aivoice.logthis.in/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:43:31 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"Please speakaaaa from POSTMAN","DisplayName":"AdriNeural","Locale":"af-ZA","ShortName":"af-ZA-AdriNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"e0472821-4bb6-46c6-8440-b982cdf1d735","CallBackUrl":"https://aivoice.logthis.in/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:43:32 PM 
+Module Name : Dhvani.Controllers.VoiceController ((UUID is Generated  = 4fc58baa-c40b-46b0-8438-86e5d82f4105))
+
+Error Source : INFOLOG 
+ 
+Error Message : 4fc58baa-c40b-46b0-8438-86e5d82f4105
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:44:53 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/3/AdriNeural_202402191443318644.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : 4fc58baa-c40b-46b0-8438-86e5d82f4105
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:40:28 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["48"]},{"Key":"Check","Value":["1"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:45:13 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["48"]},{"Key":"Check","Value":["1"]},{"Key":"VoiceMasterID","Value":["1"]},{"Key":"VoiceMasterUserMapID","Value":["11090"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:45:26 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["48"]},{"Key":"Check","Value":["1"]}]}
+ 
+ 
+ 
+======================================== 
+ 

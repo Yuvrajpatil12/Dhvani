@@ -1,0 +1,327 @@
+LogTime : 6:59:19 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:59:20 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:59:42 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:59:42 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:59:43 PM 
+Module Name : Dhvani.Controllers.VoiceController (GetTTSStatus(userID = Microsoft.AspNetCore.Mvc.JsonResult))
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:00:11 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:00:11 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:00:11 PM 
+Module Name : Dhvani.Controllers.VoiceController (GetTTSStatus(userID = Microsoft.AspNetCore.Mvc.JsonResult))
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:00:45 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:00:45 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:00:46 PM 
+Module Name : Dhvani.Controllers.VoiceController (GetTTSStatus(userID = Microsoft.AspNetCore.Mvc.JsonResult))
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:02:18 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:02:19 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:03:14 PM 
+Module Name : Dhvani.Controllers.VoiceController (GetTTSStatus(userID = Microsoft.AspNetCore.Mvc.JsonResult))
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:03:32 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:03:39 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:04:13 PM 
+Module Name : Dhvani.Controllers.VoiceController (GetTTSStatus(userID = Microsoft.AspNetCore.Mvc.JsonResult))
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:05:32 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:05:33 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:05:47 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:05:49 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 

@@ -1,0 +1,352 @@
+LogTime : 3:17:15 PM 
+Module Name : Dhvani.Controllers.AddVoiceToUserController (AddVoiceToUsers())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"UserID","Value":["50"]},{"Key":"Check","Value":["0"]},{"Key":"VoiceMasterID","Value":["112"]},{"Key":"VoiceMasterUserMapID","Value":["12127"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:24:00 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"yourWord","Value":["Hello"]},{"Key":"alternateSpelling","Value":["Hellooo"]},{"Key":"languageselect_value","Value":["am"]},{"Key":"languageselect_text","Value":["Amharic"]},{"Key":"accent_value","Value":["am-ET"]},{"Key":"accent_text","Value":["Ethiopia"]},{"Key":"voiceselect_value","Value":["am-ET-AmehaNeural"]},{"Key":"voiceselect_text","Value":["Ameha (Neural)"]},{"Key":"SaveEdit","Value":["1"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:24:15 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["ar"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["ar-DZ"]},{"Key":"hdnlanguage_1","Value":["99"]},{"Key":"hdnlanguageCount_","Value":["3","3","3"]},{"Key":"hdnid","Value":["99","100","106"]},{"Key":"yourWord_99","Value":["food"]},{"Key":"alternateSpelling_99","Value":["rice"]},{"Key":"type_99","Value":["0"]},{"Key":"hdnid_99","Value":["99"]},{"Key":"dictionaryLanguage_99","Value":["ar"]},{"Key":"localetext_99","Value":["Arabic"]},{"Key":"accent_99","Value":["ar-DZ"]},{"Key":"accenttext_99","Value":["Algeria"]},{"Key":"voice_99","Value":[""]},{"Key":"voicetext_99","Value":[""]},{"Key":"hdnlanguagevalues_2","Value":["bn"]},{"Key":"hdnVoicevalues_2","Value":["bn-IN-TanishaaNeural"]},{"Key":"hdnAccentvalues_2","Value":["bn-IN"]},{"Key":"hdnlanguage_2","Value":["100"]},{"Key":"yourWord_100","Value":["Pronunciation"]},{"Key":"alternateSpelling_100","Value":["Alternate"]},{"Key":"type_100","Value":["0"]},{"Key":"hdnid_100","Value":["100"]},{"Key":"dictionaryLanguage_100","Value":["bn"]},{"Key":"localetext_100","Value":["Bengali"]},{"Key":"accent_100","Value":["bn-IN"]},{"Key":"accenttext_100","Value":["India"]},{"Key":"voice_100","Value":["bn-IN-TanishaaNeural"]},{"Key":"voicetext_100","Value":["TanishaaNeural"]},{"Key":"hdnlanguagevalues_3","Value":["am"]},{"Key":"hdnVoicevalues_3","Value":["am-ET-AmehaNeural"]},{"Key":"hdnAccentvalues_3","Value":["am-ET"]},{"Key":"hdnlanguage_3","Value":["106"]},{"Key":"yourWord_106","Value":["Hello"]},{"Key":"alternateSpelling_106","Value":["Hell01"]},{"Key":"type_106","Value":["1"]},{"Key":"hdnid_106","Value":["106"]},{"Key":"dictionaryLanguage_106","Value":["am"]},{"Key":"localetext_106","Value":["Amharic"]},{"Key":"accent_106","Value":["am-ET"]},{"Key":"accenttext_106","Value":["Ethiopia"]},{"Key":"voice_106","Value":["am-ET-AmehaNeural"]},{"Key":"voicetext_106","Value":["AmehaNeural"]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:25:39 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["ar"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["ar-DZ"]},{"Key":"hdnlanguage_1","Value":["99"]},{"Key":"hdnlanguageCount_","Value":["2","2"]},{"Key":"hdnid","Value":["99","100"]},{"Key":"yourWord_99","Value":["food"]},{"Key":"alternateSpelling_99","Value":["ricess"]},{"Key":"type_99","Value":["1"]},{"Key":"hdnid_99","Value":["99"]},{"Key":"dictionaryLanguage_99","Value":["ar"]},{"Key":"localetext_99","Value":["Arabic"]},{"Key":"accent_99","Value":["ar-DZ"]},{"Key":"accenttext_99","Value":["Algeria"]},{"Key":"voice_99","Value":[""]},{"Key":"voicetext_99","Value":[""]},{"Key":"hdnlanguagevalues_2","Value":["bn"]},{"Key":"hdnVoicevalues_2","Value":["bn-IN-TanishaaNeural"]},{"Key":"hdnAccentvalues_2","Value":["bn-IN"]},{"Key":"hdnlanguage_2","Value":["100"]},{"Key":"yourWord_100","Value":["Pronunciation"]},{"Key":"alternateSpelling_100","Value":["Alternate"]},{"Key":"type_100","Value":["0"]},{"Key":"hdnid_100","Value":["100"]},{"Key":"dictionaryLanguage_100","Value":["bn"]},{"Key":"localetext_100","Value":["Bengali"]},{"Key":"accent_100","Value":["bn-IN"]},{"Key":"accenttext_100","Value":["India"]},{"Key":"voice_100","Value":["bn-IN-TanishaaNeural"]},{"Key":"voicetext_100","Value":["TanishaaNeural"]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:25:59 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["ar"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["ar-DZ"]},{"Key":"hdnlanguage_1","Value":["99"]},{"Key":"hdnlanguageCount_","Value":["3","3","3"]},{"Key":"hdnid","Value":["99","100","107"]},{"Key":"yourWord_99","Value":["food"]},{"Key":"alternateSpelling_99","Value":["rice"]},{"Key":"type_99","Value":["0"]},{"Key":"hdnid_99","Value":["99"]},{"Key":"dictionaryLanguage_99","Value":["ar"]},{"Key":"localetext_99","Value":["Arabic"]},{"Key":"accent_99","Value":["ar-DZ"]},{"Key":"accenttext_99","Value":["Algeria"]},{"Key":"voice_99","Value":[""]},{"Key":"voicetext_99","Value":[""]},{"Key":"hdnlanguagevalues_2","Value":["bn"]},{"Key":"hdnVoicevalues_2","Value":["bn-IN-TanishaaNeural"]},{"Key":"hdnAccentvalues_2","Value":["bn-IN"]},{"Key":"hdnlanguage_2","Value":["100"]},{"Key":"yourWord_100","Value":["Pronunciation"]},{"Key":"alternateSpelling_100","Value":["Alternate"]},{"Key":"type_100","Value":["0"]},{"Key":"hdnid_100","Value":["100"]},{"Key":"dictionaryLanguage_100","Value":["bn"]},{"Key":"localetext_100","Value":["Bengali"]},{"Key":"accent_100","Value":["bn-IN"]},{"Key":"accenttext_100","Value":["India"]},{"Key":"voice_100","Value":["bn-IN-TanishaaNeural"]},{"Key":"voicetext_100","Value":["TanishaaNeural"]},{"Key":"hdnlanguagevalues_3","Value":["ar"]},{"Key":"hdnVoicevalues_3","Value":[""]},{"Key":"hdnAccentvalues_3","Value":["ar-DZ"]},{"Key":"hdnlanguage_3","Value":["107"]},{"Key":"yourWord_107","Value":["food"]},{"Key":"alternateSpelling_107","Value":["rices"]},{"Key":"type_107","Value":["1"]},{"Key":"hdnid_107","Value":["107"]},{"Key":"dictionaryLanguage_107","Value":["ar"]},{"Key":"localetext_107","Value":["Arabic"]},{"Key":"accent_107","Value":["ar-DZ"]},{"Key":"accenttext_107","Value":["Algeria"]},{"Key":"voice_107","Value":[""]},{"Key":"voicetext_107","Value":[""]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:26:16 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["ar"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["ar-DZ"]},{"Key":"hdnlanguage_1","Value":["99"]},{"Key":"hdnlanguageCount_","Value":["4","4","4","4"]},{"Key":"hdnid","Value":["99","100","107","108"]},{"Key":"yourWord_99","Value":["food"]},{"Key":"alternateSpelling_99","Value":["rice"]},{"Key":"type_99","Value":["0"]},{"Key":"hdnid_99","Value":["99"]},{"Key":"dictionaryLanguage_99","Value":["ar"]},{"Key":"localetext_99","Value":["Arabic"]},{"Key":"accent_99","Value":["ar-DZ"]},{"Key":"accenttext_99","Value":["Algeria"]},{"Key":"voice_99","Value":[""]},{"Key":"voicetext_99","Value":[""]},{"Key":"hdnlanguagevalues_2","Value":["bn"]},{"Key":"hdnVoicevalues_2","Value":["bn-IN-TanishaaNeural"]},{"Key":"hdnAccentvalues_2","Value":["bn-IN"]},{"Key":"hdnlanguage_2","Value":["100"]},{"Key":"yourWord_100","Value":["Pronunciation"]},{"Key":"alternateSpelling_100","Value":["Alternate"]},{"Key":"type_100","Value":["0"]},{"Key":"hdnid_100","Value":["100"]},{"Key":"dictionaryLanguage_100","Value":["bn"]},{"Key":"localetext_100","Value":["Bengali"]},{"Key":"accent_100","Value":["bn-IN"]},{"Key":"accenttext_100","Value":["India"]},{"Key":"voice_100","Value":["bn-IN-TanishaaNeural"]},{"Key":"voicetext_100","Value":["TanishaaNeural"]},{"Key":"hdnlanguagevalues_3","Value":["ar"]},{"Key":"hdnVoicevalues_3","Value":[""]},{"Key":"hdnAccentvalues_3","Value":["ar-DZ"]},{"Key":"hdnlanguage_3","Value":["107"]},{"Key":"yourWord_107","Value":["food"]},{"Key":"alternateSpelling_107","Value":["ricess"]},{"Key":"type_107","Value":["0"]},{"Key":"hdnid_107","Value":["107"]},{"Key":"dictionaryLanguage_107","Value":["ar"]},{"Key":"localetext_107","Value":["Arabic"]},{"Key":"accent_107","Value":["ar-DZ"]},{"Key":"accenttext_107","Value":["Algeria"]},{"Key":"voice_107","Value":[""]},{"Key":"voicetext_107","Value":[""]},{"Key":"hdnlanguagevalues_4","Value":["ar"]},{"Key":"hdnVoicevalues_4","Value":[""]},{"Key":"hdnAccentvalues_4","Value":["ar-DZ"]},{"Key":"hdnlanguage_4","Value":["108"]},{"Key":"yourWord_108","Value":["food"]},{"Key":"alternateSpelling_108","Value":["rices1"]},{"Key":"type_108","Value":["1"]},{"Key":"hdnid_108","Value":["108"]},{"Key":"dictionaryLanguage_108","Value":["ar"]},{"Key":"localetext_108","Value":["Arabic"]},{"Key":"accent_108","Value":["ar-DZ"]},{"Key":"accenttext_108","Value":["Algeria"]},{"Key":"voice_108","Value":[""]},{"Key":"voicetext_108","Value":[""]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:28:50 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["ar"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["ar-DZ"]},{"Key":"hdnlanguage_1","Value":["99"]},{"Key":"hdnlanguageCount_","Value":["5","5","5","5","5"]},{"Key":"hdnid","Value":["99","100","107","108","109"]},{"Key":"yourWord_99","Value":["food"]},{"Key":"alternateSpelling_99","Value":["rice2"]},{"Key":"type_99","Value":["1"]},{"Key":"hdnid_99","Value":["99"]},{"Key":"dictionaryLanguage_99","Value":["ar"]},{"Key":"localetext_99","Value":["Arabic"]},{"Key":"accent_99","Value":["ar-DZ"]},{"Key":"accenttext_99","Value":["Algeria"]},{"Key":"voice_99","Value":[""]},{"Key":"voicetext_99","Value":[""]},{"Key":"hdnlanguagevalues_2","Value":["bn"]},{"Key":"hdnVoicevalues_2","Value":["bn-IN-TanishaaNeural"]},{"Key":"hdnAccentvalues_2","Value":["bn-IN"]},{"Key":"hdnlanguage_2","Value":["100"]},{"Key":"yourWord_100","Value":["Pronunciation"]},{"Key":"alternateSpelling_100","Value":["Alternate"]},{"Key":"type_100","Value":["0"]},{"Key":"hdnid_100","Value":["100"]},{"Key":"dictionaryLanguage_100","Value":["bn"]},{"Key":"localetext_100","Value":["Bengali"]},{"Key":"accent_100","Value":["bn-IN"]},{"Key":"accenttext_100","Value":["India"]},{"Key":"voice_100","Value":["bn-IN-TanishaaNeural"]},{"Key":"voicetext_100","Value":["TanishaaNeural"]},{"Key":"hdnlanguagevalues_3","Value":["ar"]},{"Key":"hdnVoicevalues_3","Value":[""]},{"Key":"hdnAccentvalues_3","Value":["ar-DZ"]},{"Key":"hdnlanguage_3","Value":["107"]},{"Key":"yourWord_107","Value":["food"]},{"Key":"alternateSpelling_107","Value":["ricess"]},{"Key":"type_107","Value":["0"]},{"Key":"hdnid_107","Value":["107"]},{"Key":"dictionaryLanguage_107","Value":["ar"]},{"Key":"localetext_107","Value":["Arabic"]},{"Key":"accent_107","Value":["ar-DZ"]},{"Key":"accenttext_107","Value":["Algeria"]},{"Key":"voice_107","Value":[""]},{"Key":"voicetext_107","Value":[""]},{"Key":"hdnlanguagevalues_4","Value":["ar"]},{"Key":"hdnVoicevalues_4","Value":[""]},{"Key":"hdnAccentvalues_4","Value":["ar-DZ"]},{"Key":"hdnlanguage_4","Value":["108"]},{"Key":"yourWord_108","Value":["food"]},{"Key":"alternateSpelling_108","Value":["rices"]},{"Key":"type_108","Value":["0"]},{"Key":"hdnid_108","Value":["108"]},{"Key":"dictionaryLanguage_108","Value":["ar"]},{"Key":"localetext_108","Value":["Arabic"]},{"Key":"accent_108","Value":["ar-DZ"]},{"Key":"accenttext_108","Value":["Algeria"]},{"Key":"voice_108","Value":[""]},{"Key":"voicetext_108","Value":[""]},{"Key":"hdnlanguagevalues_5","Value":["ar"]},{"Key":"hdnVoicevalues_5","Value":[""]},{"Key":"hdnAccentvalues_5","Value":["ar-DZ"]},{"Key":"hdnlanguage_5","Value":["109"]},{"Key":"yourWord_109","Value":["food"]},{"Key":"alternateSpelling_109","Value":["rices1"]},{"Key":"type_109","Value":["0"]},{"Key":"hdnid_109","Value":["109"]},{"Key":"dictionaryLanguage_109","Value":["ar"]},{"Key":"localetext_109","Value":["Arabic"]},{"Key":"accent_109","Value":["ar-DZ"]},{"Key":"accenttext_109","Value":["Algeria"]},{"Key":"voice_109","Value":[""]},{"Key":"voicetext_109","Value":[""]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:29:05 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["ar"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["ar-DZ"]},{"Key":"hdnlanguage_1","Value":["99"]},{"Key":"hdnlanguageCount_","Value":["6","6","6","6","6","6"]},{"Key":"hdnid","Value":["99","100","107","108","109","110"]},{"Key":"yourWord_99","Value":["food"]},{"Key":"alternateSpelling_99","Value":["rice3"]},{"Key":"type_99","Value":["1"]},{"Key":"hdnid_99","Value":["99"]},{"Key":"dictionaryLanguage_99","Value":["ar"]},{"Key":"localetext_99","Value":["Arabic"]},{"Key":"accent_99","Value":["ar-DZ"]},{"Key":"accenttext_99","Value":["Algeria"]},{"Key":"voice_99","Value":[""]},{"Key":"voicetext_99","Value":[""]},{"Key":"hdnlanguagevalues_2","Value":["bn"]},{"Key":"hdnVoicevalues_2","Value":["bn-IN-TanishaaNeural"]},{"Key":"hdnAccentvalues_2","Value":["bn-IN"]},{"Key":"hdnlanguage_2","Value":["100"]},{"Key":"yourWord_100","Value":["Pronunciation"]},{"Key":"alternateSpelling_100","Value":["Alternate"]},{"Key":"type_100","Value":["0"]},{"Key":"hdnid_100","Value":["100"]},{"Key":"dictionaryLanguage_100","Value":["bn"]},{"Key":"localetext_100","Value":["Bengali"]},{"Key":"accent_100","Value":["bn-IN"]},{"Key":"accenttext_100","Value":["India"]},{"Key":"voice_100","Value":["bn-IN-TanishaaNeural"]},{"Key":"voicetext_100","Value":["TanishaaNeural"]},{"Key":"hdnlanguagevalues_3","Value":["ar"]},{"Key":"hdnVoicevalues_3","Value":[""]},{"Key":"hdnAccentvalues_3","Value":["ar-DZ"]},{"Key":"hdnlanguage_3","Value":["107"]},{"Key":"yourWord_107","Value":["food"]},{"Key":"alternateSpelling_107","Value":["ricess"]},{"Key":"type_107","Value":["0"]},{"Key":"hdnid_107","Value":["107"]},{"Key":"dictionaryLanguage_107","Value":["ar"]},{"Key":"localetext_107","Value":["Arabic"]},{"Key":"accent_107","Value":["ar-DZ"]},{"Key":"accenttext_107","Value":["Algeria"]},{"Key":"voice_107","Value":[""]},{"Key":"voicetext_107","Value":[""]},{"Key":"hdnlanguagevalues_4","Value":["ar"]},{"Key":"hdnVoicevalues_4","Value":[""]},{"Key":"hdnAccentvalues_4","Value":["ar-DZ"]},{"Key":"hdnlanguage_4","Value":["108"]},{"Key":"yourWord_108","Value":["food"]},{"Key":"alternateSpelling_108","Value":["rices"]},{"Key":"type_108","Value":["0"]},{"Key":"hdnid_108","Value":["108"]},{"Key":"dictionaryLanguage_108","Value":["ar"]},{"Key":"localetext_108","Value":["Arabic"]},{"Key":"accent_108","Value":["ar-DZ"]},{"Key":"accenttext_108","Value":["Algeria"]},{"Key":"voice_108","Value":[""]},{"Key":"voicetext_108","Value":[""]},{"Key":"hdnlanguagevalues_5","Value":["ar"]},{"Key":"hdnVoicevalues_5","Value":[""]},{"Key":"hdnAccentvalues_5","Value":["ar-DZ"]},{"Key":"hdnlanguage_5","Value":["109"]},{"Key":"yourWord_109","Value":["food"]},{"Key":"alternateSpelling_109","Value":["rices1"]},{"Key":"type_109","Value":["0"]},{"Key":"hdnid_109","Value":["109"]},{"Key":"dictionaryLanguage_109","Value":["ar"]},{"Key":"localetext_109","Value":["Arabic"]},{"Key":"accent_109","Value":["ar-DZ"]},{"Key":"accenttext_109","Value":["Algeria"]},{"Key":"voice_109","Value":[""]},{"Key":"voicetext_109","Value":[""]},{"Key":"hdnlanguagevalues_6","Value":["ar"]},{"Key":"hdnVoicevalues_6","Value":[""]},{"Key":"hdnAccentvalues_6","Value":["ar-DZ"]},{"Key":"hdnlanguage_6","Value":["110"]},{"Key":"yourWord_110","Value":["food"]},{"Key":"alternateSpelling_110","Value":["rice2"]},{"Key":"type_110","Value":["0"]},{"Key":"hdnid_110","Value":["110"]},{"Key":"dictionaryLanguage_110","Value":["ar"]},{"Key":"localetext_110","Value":["Arabic"]},{"Key":"accent_110","Value":["ar-DZ"]},{"Key":"accenttext_110","Value":["Algeria"]},{"Key":"voice_110","Value":[""]},{"Key":"voicetext_110","Value":[""]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:36:52 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["ar"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["ar-DZ"]},{"Key":"hdnlanguage_1","Value":["99"]},{"Key":"hdnlanguageCount_","Value":["4","4","4","4"]},{"Key":"hdnid","Value":["99","100","107","112"]},{"Key":"yourWord_99","Value":["food"]},{"Key":"alternateSpelling_99","Value":["rice1"]},{"Key":"type_99","Value":["1"]},{"Key":"hdnid_99","Value":["99"]},{"Key":"VMUUID_99","Value":[""]},{"Key":"dictionaryLanguage_99","Value":["ar"]},{"Key":"localetext_99","Value":["Arabic"]},{"Key":"accent_99","Value":["ar-DZ"]},{"Key":"accenttext_99","Value":["Algeria"]},{"Key":"voice_99","Value":[""]},{"Key":"voicetext_99","Value":[""]},{"Key":"hdnlanguagevalues_2","Value":["bn"]},{"Key":"hdnVoicevalues_2","Value":["bn-IN-TanishaaNeural"]},{"Key":"hdnAccentvalues_2","Value":["bn-IN"]},{"Key":"hdnlanguage_2","Value":["100"]},{"Key":"yourWord_100","Value":["Pronunciation"]},{"Key":"alternateSpelling_100","Value":["Alternate1"]},{"Key":"type_100","Value":["0"]},{"Key":"hdnid_100","Value":["100"]},{"Key":"VMUUID_100","Value":["9E490046-D71A-4512-AAC8-DB7458DF4AAC"]},{"Key":"dictionaryLanguage_100","Value":["bn"]},{"Key":"localetext_100","Value":["Bengali"]},{"Key":"accent_100","Value":["bn-IN"]},{"Key":"accenttext_100","Value":["India"]},{"Key":"voice_100","Value":["bn-IN-TanishaaNeural"]},{"Key":"voicetext_100","Value":["TanishaaNeural"]},{"Key":"hdnlanguagevalues_3","Value":["ar"]},{"Key":"hdnVoicevalues_3","Value":[""]},{"Key":"hdnAccentvalues_3","Value":["ar-DZ"]},{"Key":"hdnlanguage_3","Value":["107"]},{"Key":"yourWord_107","Value":["food"]},{"Key":"alternateSpelling_107","Value":["ricess"]},{"Key":"type_107","Value":["0"]},{"Key":"hdnid_107","Value":["107"]},{"Key":"VMUUID_107","Value":[""]},{"Key":"dictionaryLanguage_107","Value":["ar"]},{"Key":"localetext_107","Value":["Arabic"]},{"Key":"accent_107","Value":["ar-DZ"]},{"Key":"accenttext_107","Value":["Algeria"]},{"Key":"voice_107","Value":[""]},{"Key":"voicetext_107","Value":[""]},{"Key":"hdnlanguagevalues_4","Value":["ar"]},{"Key":"hdnVoicevalues_4","Value":[""]},{"Key":"hdnAccentvalues_4","Value":["ar-DZ"]},{"Key":"hdnlanguage_4","Value":["112"]},{"Key":"yourWord_112","Value":["food"]},{"Key":"alternateSpelling_112","Value":["rice3"]},{"Key":"type_112","Value":["0"]},{"Key":"hdnid_112","Value":["112"]},{"Key":"VMUUID_112","Value":[""]},{"Key":"dictionaryLanguage_112","Value":["ar"]},{"Key":"localetext_112","Value":["Arabic"]},{"Key":"accent_112","Value":["ar-DZ"]},{"Key":"accenttext_112","Value":["Algeria"]},{"Key":"voice_112","Value":[""]},{"Key":"voicetext_112","Value":[""]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:49:06 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["ar"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["ar-DZ"]},{"Key":"hdnlanguage_1","Value":["99"]},{"Key":"hdnlanguageCount_","Value":["4","4","4","4"]},{"Key":"hdnid","Value":["99","100","107","112"]},{"Key":"yourWord_99","Value":["food"]},{"Key":"alternateSpelling_99","Value":["rice12"]},{"Key":"type_99","Value":["1"]},{"Key":"hdnid_99","Value":["99"]},{"Key":"VMUUID_99","Value":[""]},{"Key":"dictionaryLanguage_99","Value":["ar"]},{"Key":"localetext_99","Value":["Arabic"]},{"Key":"accent_99","Value":["ar-DZ"]},{"Key":"accenttext_99","Value":["Algeria"]},{"Key":"voice_99","Value":[""]},{"Key":"voicetext_99","Value":[""]},{"Key":"hdnlanguagevalues_2","Value":["bn"]},{"Key":"hdnVoicevalues_2","Value":["bn-IN-TanishaaNeural"]},{"Key":"hdnAccentvalues_2","Value":["bn-IN"]},{"Key":"hdnlanguage_2","Value":["100"]},{"Key":"yourWord_100","Value":["Pronunciation"]},{"Key":"alternateSpelling_100","Value":["Alternate1"]},{"Key":"type_100","Value":["0"]},{"Key":"hdnid_100","Value":["100"]},{"Key":"VMUUID_100","Value":["9E490046-D71A-4512-AAC8-DB7458DF4AAC"]},{"Key":"dictionaryLanguage_100","Value":["bn"]},{"Key":"localetext_100","Value":["Bengali"]},{"Key":"accent_100","Value":["bn-IN"]},{"Key":"accenttext_100","Value":["India"]},{"Key":"voice_100","Value":["bn-IN-TanishaaNeural"]},{"Key":"voicetext_100","Value":["TanishaaNeural"]},{"Key":"hdnlanguagevalues_3","Value":["ar"]},{"Key":"hdnVoicevalues_3","Value":[""]},{"Key":"hdnAccentvalues_3","Value":["ar-DZ"]},{"Key":"hdnlanguage_3","Value":["107"]},{"Key":"yourWord_107","Value":["food"]},{"Key":"alternateSpelling_107","Value":["ricess"]},{"Key":"type_107","Value":["0"]},{"Key":"hdnid_107","Value":["107"]},{"Key":"VMUUID_107","Value":[""]},{"Key":"dictionaryLanguage_107","Value":["ar"]},{"Key":"localetext_107","Value":["Arabic"]},{"Key":"accent_107","Value":["ar-DZ"]},{"Key":"accenttext_107","Value":["Algeria"]},{"Key":"voice_107","Value":[""]},{"Key":"voicetext_107","Value":[""]},{"Key":"hdnlanguagevalues_4","Value":["ar"]},{"Key":"hdnVoicevalues_4","Value":[""]},{"Key":"hdnAccentvalues_4","Value":["ar-DZ"]},{"Key":"hdnlanguage_4","Value":["112"]},{"Key":"yourWord_112","Value":["food"]},{"Key":"alternateSpelling_112","Value":["rice3"]},{"Key":"type_112","Value":["0"]},{"Key":"hdnid_112","Value":["112"]},{"Key":"VMUUID_112","Value":[""]},{"Key":"dictionaryLanguage_112","Value":["ar"]},{"Key":"localetext_112","Value":["Arabic"]},{"Key":"accent_112","Value":["ar-DZ"]},{"Key":"accenttext_112","Value":["Algeria"]},{"Key":"voice_112","Value":[""]},{"Key":"voicetext_112","Value":[""]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:49:17 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["ar"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["ar-DZ"]},{"Key":"hdnlanguage_1","Value":["99"]},{"Key":"hdnlanguageCount_","Value":["4","4","4","4"]},{"Key":"hdnid","Value":["99","100","107","112"]},{"Key":"yourWord_99","Value":["food"]},{"Key":"alternateSpelling_99","Value":["rice123"]},{"Key":"type_99","Value":["1"]},{"Key":"hdnid_99","Value":["99"]},{"Key":"VMUUID_99","Value":[""]},{"Key":"dictionaryLanguage_99","Value":["ar"]},{"Key":"localetext_99","Value":["Arabic"]},{"Key":"accent_99","Value":["ar-DZ"]},{"Key":"accenttext_99","Value":["Algeria"]},{"Key":"voice_99","Value":[""]},{"Key":"voicetext_99","Value":[""]},{"Key":"hdnlanguagevalues_2","Value":["bn"]},{"Key":"hdnVoicevalues_2","Value":["bn-IN-TanishaaNeural"]},{"Key":"hdnAccentvalues_2","Value":["bn-IN"]},{"Key":"hdnlanguage_2","Value":["100"]},{"Key":"yourWord_100","Value":["Pronunciation"]},{"Key":"alternateSpelling_100","Value":["Alternate1"]},{"Key":"type_100","Value":["0"]},{"Key":"hdnid_100","Value":["100"]},{"Key":"VMUUID_100","Value":["9E490046-D71A-4512-AAC8-DB7458DF4AAC"]},{"Key":"dictionaryLanguage_100","Value":["bn"]},{"Key":"localetext_100","Value":["Bengali"]},{"Key":"accent_100","Value":["bn-IN"]},{"Key":"accenttext_100","Value":["India"]},{"Key":"voice_100","Value":["bn-IN-TanishaaNeural"]},{"Key":"voicetext_100","Value":["TanishaaNeural"]},{"Key":"hdnlanguagevalues_3","Value":["ar"]},{"Key":"hdnVoicevalues_3","Value":[""]},{"Key":"hdnAccentvalues_3","Value":["ar-DZ"]},{"Key":"hdnlanguage_3","Value":["107"]},{"Key":"yourWord_107","Value":["food"]},{"Key":"alternateSpelling_107","Value":["ricess"]},{"Key":"type_107","Value":["0"]},{"Key":"hdnid_107","Value":["107"]},{"Key":"VMUUID_107","Value":[""]},{"Key":"dictionaryLanguage_107","Value":["ar"]},{"Key":"localetext_107","Value":["Arabic"]},{"Key":"accent_107","Value":["ar-DZ"]},{"Key":"accenttext_107","Value":["Algeria"]},{"Key":"voice_107","Value":[""]},{"Key":"voicetext_107","Value":[""]},{"Key":"hdnlanguagevalues_4","Value":["ar"]},{"Key":"hdnVoicevalues_4","Value":[""]},{"Key":"hdnAccentvalues_4","Value":["ar-DZ"]},{"Key":"hdnlanguage_4","Value":["112"]},{"Key":"yourWord_112","Value":["food"]},{"Key":"alternateSpelling_112","Value":["rice3"]},{"Key":"type_112","Value":["0"]},{"Key":"hdnid_112","Value":["112"]},{"Key":"VMUUID_112","Value":[""]},{"Key":"dictionaryLanguage_112","Value":["ar"]},{"Key":"localetext_112","Value":["Arabic"]},{"Key":"accent_112","Value":["ar-DZ"]},{"Key":"accenttext_112","Value":["Algeria"]},{"Key":"voice_112","Value":[""]},{"Key":"voicetext_112","Value":[""]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:49:32 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"yourWord","Value":["Hello"]},{"Key":"alternateSpelling","Value":["Hellooo"]},{"Key":"languageselect_value","Value":["am"]},{"Key":"languageselect_text","Value":["Amharic"]},{"Key":"accent_value","Value":["am-ET"]},{"Key":"accent_text","Value":["Ethiopia"]},{"Key":"voiceselect_value","Value":[""]},{"Key":"voiceselect_text","Value":["Select Voice"]},{"Key":"SaveEdit","Value":["1"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:49:45 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["ar"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["ar-DZ"]},{"Key":"hdnlanguage_1","Value":["99"]},{"Key":"hdnlanguageCount_","Value":["5","5","5","5","5"]},{"Key":"hdnid","Value":["99","100","107","112","113"]},{"Key":"yourWord_99","Value":["food"]},{"Key":"alternateSpelling_99","Value":["rice123"]},{"Key":"type_99","Value":["0"]},{"Key":"hdnid_99","Value":["99"]},{"Key":"VMUUID_99","Value":[""]},{"Key":"dictionaryLanguage_99","Value":["ar"]},{"Key":"localetext_99","Value":["Arabic"]},{"Key":"accent_99","Value":["ar-DZ"]},{"Key":"accenttext_99","Value":["Algeria"]},{"Key":"voice_99","Value":[""]},{"Key":"voicetext_99","Value":[""]},{"Key":"hdnlanguagevalues_2","Value":["bn"]},{"Key":"hdnVoicevalues_2","Value":["bn-IN-TanishaaNeural"]},{"Key":"hdnAccentvalues_2","Value":["bn-IN"]},{"Key":"hdnlanguage_2","Value":["100"]},{"Key":"yourWord_100","Value":["Pronunciation"]},{"Key":"alternateSpelling_100","Value":["Alternate1"]},{"Key":"type_100","Value":["0"]},{"Key":"hdnid_100","Value":["100"]},{"Key":"VMUUID_100","Value":["9E490046-D71A-4512-AAC8-DB7458DF4AAC"]},{"Key":"dictionaryLanguage_100","Value":["bn"]},{"Key":"localetext_100","Value":["Bengali"]},{"Key":"accent_100","Value":["bn-IN"]},{"Key":"accenttext_100","Value":["India"]},{"Key":"voice_100","Value":["bn-IN-TanishaaNeural"]},{"Key":"voicetext_100","Value":["TanishaaNeural"]},{"Key":"hdnlanguagevalues_3","Value":["ar"]},{"Key":"hdnVoicevalues_3","Value":[""]},{"Key":"hdnAccentvalues_3","Value":["ar-DZ"]},{"Key":"hdnlanguage_3","Value":["107"]},{"Key":"yourWord_107","Value":["food"]},{"Key":"alternateSpelling_107","Value":["ricess"]},{"Key":"type_107","Value":["0"]},{"Key":"hdnid_107","Value":["107"]},{"Key":"VMUUID_107","Value":[""]},{"Key":"dictionaryLanguage_107","Value":["ar"]},{"Key":"localetext_107","Value":["Arabic"]},{"Key":"accent_107","Value":["ar-DZ"]},{"Key":"accenttext_107","Value":["Algeria"]},{"Key":"voice_107","Value":[""]},{"Key":"voicetext_107","Value":[""]},{"Key":"hdnlanguagevalues_4","Value":["ar"]},{"Key":"hdnVoicevalues_4","Value":[""]},{"Key":"hdnAccentvalues_4","Value":["ar-DZ"]},{"Key":"hdnlanguage_4","Value":["112"]},{"Key":"yourWord_112","Value":["food"]},{"Key":"alternateSpelling_112","Value":["rice3"]},{"Key":"type_112","Value":["0"]},{"Key":"hdnid_112","Value":["112"]},{"Key":"VMUUID_112","Value":[""]},{"Key":"dictionaryLanguage_112","Value":["ar"]},{"Key":"localetext_112","Value":["Arabic"]},{"Key":"accent_112","Value":["ar-DZ"]},{"Key":"accenttext_112","Value":["Algeria"]},{"Key":"voice_112","Value":[""]},{"Key":"voicetext_112","Value":[""]},{"Key":"hdnlanguagevalues_5","Value":["am"]},{"Key":"hdnVoicevalues_5","Value":[""]},{"Key":"hdnAccentvalues_5","Value":["am-ET"]},{"Key":"hdnlanguage_5","Value":["113"]},{"Key":"yourWord_113","Value":["Hello"]},{"Key":"alternateSpelling_113","Value":["Hello"]},{"Key":"type_113","Value":["1"]},{"Key":"hdnid_113","Value":["113"]},{"Key":"VMUUID_113","Value":[""]},{"Key":"dictionaryLanguage_113","Value":["am"]},{"Key":"localetext_113","Value":["Amharic"]},{"Key":"accent_113","Value":["am-ET"]},{"Key":"accenttext_113","Value":["Ethiopia"]},{"Key":"voice_113","Value":[""]},{"Key":"voicetext_113","Value":[""]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:51:35 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:52:10 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:53:20 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:53:42 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:54:05 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:54:36 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:55:10 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["ar"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["ar-DZ"]},{"Key":"hdnlanguage_1","Value":["99"]},{"Key":"hdnlanguageCount_","Value":["4","4","4","4"]},{"Key":"hdnid","Value":["99","100","107","113"]},{"Key":"yourWord_99","Value":["food"]},{"Key":"alternateSpelling_99","Value":["rice123"]},{"Key":"type_99","Value":["0"]},{"Key":"hdnid_99","Value":["99"]},{"Key":"VMUUID_99","Value":[""]},{"Key":"dictionaryLanguage_99","Value":["ar"]},{"Key":"localetext_99","Value":["Arabic"]},{"Key":"accent_99","Value":["ar-DZ"]},{"Key":"accenttext_99","Value":["Algeria"]},{"Key":"voice_99","Value":[""]},{"Key":"voicetext_99","Value":[""]},{"Key":"hdnlanguagevalues_2","Value":["bn"]},{"Key":"hdnVoicevalues_2","Value":["bn-IN-TanishaaNeural"]},{"Key":"hdnAccentvalues_2","Value":["bn-IN"]},{"Key":"hdnlanguage_2","Value":["100"]},{"Key":"yourWord_100","Value":["Pronunciation"]},{"Key":"alternateSpelling_100","Value":["Alternate1"]},{"Key":"type_100","Value":["0"]},{"Key":"hdnid_100","Value":["100"]},{"Key":"VMUUID_100","Value":["9E490046-D71A-4512-AAC8-DB7458DF4AAC"]},{"Key":"dictionaryLanguage_100","Value":["bn"]},{"Key":"localetext_100","Value":["Bengali"]},{"Key":"accent_100","Value":["bn-IN"]},{"Key":"accenttext_100","Value":["India"]},{"Key":"voice_100","Value":["bn-IN-TanishaaNeural"]},{"Key":"voicetext_100","Value":["TanishaaNeural"]},{"Key":"hdnlanguagevalues_3","Value":["ar"]},{"Key":"hdnVoicevalues_3","Value":[""]},{"Key":"hdnAccentvalues_3","Value":["ar-DZ"]},{"Key":"hdnlanguage_3","Value":["107"]},{"Key":"yourWord_107","Value":["food"]},{"Key":"alternateSpelling_107","Value":["ricess12"]},{"Key":"type_107","Value":["1"]},{"Key":"hdnid_107","Value":["107"]},{"Key":"VMUUID_107","Value":[""]},{"Key":"dictionaryLanguage_107","Value":["ar"]},{"Key":"localetext_107","Value":["Arabic"]},{"Key":"accent_107","Value":["ar-DZ"]},{"Key":"accenttext_107","Value":["Algeria"]},{"Key":"voice_107","Value":[""]},{"Key":"voicetext_107","Value":[""]},{"Key":"hdnlanguagevalues_4","Value":["am"]},{"Key":"hdnVoicevalues_4","Value":[""]},{"Key":"hdnAccentvalues_4","Value":["am-ET"]},{"Key":"hdnlanguage_4","Value":["113"]},{"Key":"yourWord_113","Value":["Hello"]},{"Key":"alternateSpelling_113","Value":["Hello"]},{"Key":"type_113","Value":["0"]},{"Key":"hdnid_113","Value":["113"]},{"Key":"VMUUID_113","Value":[""]},{"Key":"dictionaryLanguage_113","Value":["am"]},{"Key":"localetext_113","Value":["Amharic"]},{"Key":"accent_113","Value":["am-ET"]},{"Key":"accenttext_113","Value":["Ethiopia"]},{"Key":"voice_113","Value":[""]},{"Key":"voicetext_113","Value":[""]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:17:50 PM 
+Module Name : Core.Controllers.App.PronunciationController (GetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : 
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:20:32 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:20:56 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:22:16 PM 
+Module Name : Core.Controllers.App.PronunciationController (GetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : 
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:23:02 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:23:42 PM 
+Module Name : Core.Controllers.App.PronunciationController (GetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : 
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:24:44 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:29:05 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:29:29 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:30:45 PM 
+Module Name : Core.Controllers.App.PronunciationController (GetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : 
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:31:04 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:31:20 PM 
+Module Name : Core.Controllers.App.PronunciationController (SetPronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : Core.Entity.SetPronunciation
+ 
+ 
+ 
+======================================== 
+ 

@@ -1,0 +1,838 @@
+LogTime : 2:22:41 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:22:45 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:23:01 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 2:23:14 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:09:24 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:09:25 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:09:45 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:09:50 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:12:52 PM 
+Module Name : Dhvani.Controllers.VoiceController ((generatespeechAsync= {"objVM":{"VoiceText":"test trets tets tetst tetst","DisplayName":"AliNeural","Locale":"ar-BH","ShortName":"ar-BH-AliNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}))
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Status(StatusCode="InvalidArgument", Detail="Voice 'ar-BH-AliNeural' does not exist. Is it misspelled?")
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:13:05 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:13:06 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:13:24 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:13:26 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:14:11 PM 
+Module Name : Dhvani.Controllers.VoiceController ((generatespeechAsync= {"objVM":{"VoiceText":"test trets tets tetst tetst","DisplayName":"AliNeural","Locale":"ar-BH","ShortName":"ar-BH-AliNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}))
+
+Error Source : System.Private.CoreLib
+ 
+Error Message : Status(StatusCode="InvalidArgument", Detail="Voice 'ar-BH-AliNeural' does not exist. Is it misspelled?")
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:18:50 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:18:51 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:18:56 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:18:57 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:20:22 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:20:22 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:20:25 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:20:26 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:34:55 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:34:57 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:35:04 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 5:35:06 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:10:50 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:10:52 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:11:11 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 18
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:11:14 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : UsersController.cs
+ 
+Error Message GetFileLineNumber : 575
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:26:58 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:27:02 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:27:06 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:27:07 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:31:48 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:31:49 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:31:54 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:31:55 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:35:59 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:36:00 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:36:05 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:36:06 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:39:00 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:39:15 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:39:19 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:39:20 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:59:15 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:59:21 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:59:26 PM 
+Module Name : Core.Models.Helper (GetSession())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : get__session
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 6:59:27 PM 
+Module Name : GyanAkaadamee.Controllers.UsersController (getAccessMember())
+
+Error Source : Dhvani
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : getAccessMember
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 

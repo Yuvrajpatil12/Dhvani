@@ -1,0 +1,495 @@
+LogTime : 12:30:23 PM 
+Module Name : Dhvani.Controllers.PronunciationController (Pronunciation())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objForm":[{"Key":"hdnlanguagevalues_1","Value":["bn"]},{"Key":"hdnVoicevalues_1","Value":[""]},{"Key":"hdnAccentvalues_1","Value":["bn-IN"]},{"Key":"hdnlanguage_1","Value":["96"]},{"Key":"hdnlanguageCount_","Value":["1"]},{"Key":"hdnid","Value":["96"]},{"Key":"yourWord_96","Value":["nokl"]},{"Key":"alternateSpelling_96","Value":["nokc"]},{"Key":"type_96","Value":["1"]},{"Key":"hdnid_96","Value":["96"]},{"Key":"dictionaryLanguage_96","Value":["bn"]},{"Key":"localetext_96","Value":["Bangla"]},{"Key":"accent_96","Value":["bn-IN"]},{"Key":"accenttext_96","Value":["India"]},{"Key":"voice_96","Value":[""]},{"Key":"voicetext_96","Value":[""]},{"Key":"SaveEdit","Value":["2"]}]}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:31:10 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"test test test test test test ","DisplayName":"HamdanNeural","Locale":"ar-AE","ShortName":"ar-AE-HamdanNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:31:36 PM 
+Module Name : Dhvani.Controllers.GoogleTTS (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"test test test test test test ","DisplayName":"HamdanNeural","Locale":"ar-AE","ShortName":"ar-AE-HamdanNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:44:13 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"I'm Developer","DisplayName":"BashkarNeural","Locale":"bn-IN","ShortName":"bn-IN-BashkarNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:44:23 PM 
+Module Name : Dhvani.Controllers.GoogleTTS (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"I'm Developer","DisplayName":"BashkarNeural","Locale":"bn-IN","ShortName":"bn-IN-BashkarNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:24:28 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:24:55 PM 
+Module Name : Dhvani.Controllers.GoogleTTS (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:26:55 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:29:04 PM 
+Module Name : Dhvani.Controllers.GoogleTTS (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:29:18 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\"1000ms\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:29:19 PM 
+Module Name : Dhvani.Controllers.GoogleTTS (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\"1000ms\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:29:37 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\"10000ms\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:29:39 PM 
+Module Name : Dhvani.Controllers.GoogleTTS (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\"10000ms\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:31:51 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:31:52 PM 
+Module Name : Dhvani.Controllers.GoogleTTS (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:32:10 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:32:11 PM 
+Module Name : Dhvani.Controllers.GoogleTTS (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:37:26 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:37:39 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:38:10 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/50/PrabhatNeural_202403201537457557.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : a8b08b92-02e5-43f8-a49a-87e3f85fcad0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:39:03 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:39:08 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:39:35 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/50/PrabhatNeural_202403201539080725.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : 3cc9af86-d9a8-4794-9540-58e541c9f075
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:39:44 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\\\"1000ms\\\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:39:46 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\\\"1000ms\\\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:46:22 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\\\"1000ms\\\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:46:24 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\\\"1000ms\\\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:46:41 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:46:43 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:47:00 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/50/PrabhatNeural_202403201546430616.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : 9a7739ce-f87d-4edc-a36c-8ed6a82ea8db
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:47:40 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"10000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:47:41 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"10000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:47:44 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/50/PrabhatNeural_202403201547417362.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : f6101af8-60cb-4c6e-955f-ffa240f61bfd
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:48:10 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\"10000ms\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:48:11 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\"10000ms\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:48:31 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/50/PrabhatNeural_202403201548114419.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : bf3c64c1-ddaa-4c84-8a27-1381b0cf970a
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:49:04 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:49:05 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"1000ms\"/> Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:49:11 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/50/PrabhatNeural_202403201549055111.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : 1fe46f60-1ba9-44e1-90d9-74d15396c961
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:49:21 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:49:22 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is <break time=\"1000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:49:39 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/50/PrabhatNeural_202403201549229927.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : ed52ea9e-d96f-49a1-832e-e606a30ef617
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:50:33 PM 
+Module Name : Dhvani.Controllers.VoiceController (generatespeechAsync())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"10000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:50:34 PM 
+Module Name : Dhvani.Controllers.VoiceController (TextToSpeech())
+
+Error Source : INFOLOG 
+ 
+Error Message : {"objVM":{"VoiceText":"This is<break time=\"10000ms\"/>Hello","DisplayName":"PrabhatNeural","Locale":"en-IN","ShortName":"en-IN-PrabhatNeural","SpeakingStyle":"general","SpeakingSpeed":"0","Pitch":"0","UserAPIKey":"cms","CallBackUrl":"https://localhost:7266/Api/User/PostApi","TTSType":null}}
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:50:46 PM 
+Module Name : Dhvani.Controllers.VoiceController ((AudioUrl= https://localhost:7266/AudioFiles/50/PrabhatNeural_202403201550349974.mp3))
+
+Error Source : INFOLOG 
+ 
+Error Message : d1cf7175-bcc3-4eb9-abe5-affa2e4a93c7
+ 
+ 
+ 
+======================================== 
+ 
